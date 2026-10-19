@@ -447,6 +447,29 @@ class Component extends DCLogic {
         .catch(() => {});
     } catch (e) {}
   }
+  scrollToId(id, smooth) {
+    try {
+      const target = document.getElementById(id);
+      if (!target) return;
+      const root = document.getElementById('page-top');
+      const header = root ? root.querySelector('header') : null;
+      const offset = (header ? header.offsetHeight : 0) + 12;
+      let box = root ? root.parentElement : null;
+      while (box && box !== document.body && box !== document.documentElement) {
+        const st = window.getComputedStyle(box);
+        if (/(auto|scroll)/.test(st.overflowY) && box.scrollHeight > box.clientHeight + 1) break;
+        box = box.parentElement;
+      }
+      const behavior = smooth ? 'smooth' : 'auto';
+      if (box && box !== document.body && box !== document.documentElement) {
+        const top = target.getBoundingClientRect().top - box.getBoundingClientRect().top + box.scrollTop - offset;
+        box.scrollTo({ top: Math.max(0, top), behavior: behavior });
+      } else {
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: Math.max(0, top), behavior: behavior });
+      }
+    } catch (e) {}
+  }
   componentWillUnmount() {
     if (this._onAnchor) document.removeEventListener('click', this._onAnchor, true);
     if (this._measure) window.removeEventListener('resize', this._measure);
