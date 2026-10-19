@@ -1,0 +1,715 @@
+{
+  "matches": [
+    {
+      "date": "2026.09.19.토",
+      "event": "제우스FC 헤라클레스11",
+      "division": "아마추어",
+      "name": "이지준",
+      "weight": "56.8kg",
+      "result": "판정승",
+      "opponent": "vs 차재혁 · 익스트림컴뱃, 수원"
+    },
+    {
+      "date": "2026.09.19.토",
+      "event": "제우스FC 헤라클레스11",
+      "division": "비기너",
+      "name": "양인혁",
+      "weight": "77.1kg",
+      "result": "판정패",
+      "opponent": "vs 이규호 · 익스트림컴뱃, 수원"
+    },
+    {
+      "date": "2026.09.19.토",
+      "event": "제우스FC 헤라클레스11",
+      "division": "비기너",
+      "name": "양인혁",
+      "weight": "77.1kg",
+      "result": "2R, 암바승",
+      "opponent": "vs 이주현 · 익스트림컴뱃, 수원"
+    },
+    {
+      "date": "2026.08.22.토",
+      "event": "WARRIORZ 001",
+      "division": "세미프로",
+      "name": "김민규",
+      "weight": "85.5kg",
+      "result": "1R, 닥터 스톱에 의한 패",
+      "opponent": "vs 김태근 · 팀동백"
+    },
+    {
+      "date": "2026.08.22.토",
+      "event": "WARRIORZ 001",
+      "division": "세미프로",
+      "name": "양인혁",
+      "weight": "78.5kg",
+      "result": "판정패",
+      "opponent": "vs 김승현 · 싸비MMA, 합정"
+    },
+    {
+      "date": "2026.08.22.토",
+      "event": "WARRIORZ 001",
+      "division": "세미프로",
+      "name": "이지준",
+      "weight": "58kg",
+      "result": "판정패",
+      "opponent": "vs 문준하 · 팀파시, 강북"
+    },
+    {
+      "date": "2026.08.22.토",
+      "event": "WARRIORZ 001",
+      "division": "비기너",
+      "name": "최경은",
+      "weight": "75kg",
+      "result": "RNC에 의한 패",
+      "opponent": "vs 박제민 · 싸비MMA, 철산"
+    },
+    {
+      "date": "2026.08.22.토",
+      "event": "WARRIORZ 001",
+      "division": "비기너",
+      "name": "박지우",
+      "weight": "62.5kg",
+      "result": "판정승",
+      "opponent": "vs 박경서 · 싸비MMA, 송도"
+    },
+    {
+      "date": "2026.08.22.토",
+      "event": "WARRIORZ 001",
+      "division": "비기너",
+      "name": "박주현",
+      "weight": "-58kg",
+      "result": "암바에 의한 패",
+      "opponent": "vs 이찬민 · 오리진주짓수"
+    },
+    {
+      "date": "2026.03.14.토",
+      "event": "제우스FC 헤라클레스07",
+      "division": "아마추어",
+      "name": "설주영",
+      "weight": "61.2kg",
+      "result": "판정승",
+      "opponent": "vs 황수민 · 퍼스트 짐, 나주"
+    },
+    {
+      "date": "2026.03.14.토",
+      "event": "제우스FC 헤라클레스07",
+      "division": "아마추어",
+      "name": "김재진",
+      "weight": "83.9kg",
+      "result": "판정패",
+      "opponent": "vs 김효령 · 파라에스트라, 목포"
+    },
+    {
+      "date": "2026.03.14.토",
+      "event": "제우스FC 헤라클레스07",
+      "division": "비기너",
+      "name": "강종헌",
+      "weight": "120kg",
+      "result": "판정승",
+      "opponent": "vs 정우성 · 팀매드, 청주"
+    },
+    {
+      "date": "2025.12.21.일",
+      "event": "제우스FC 헤라클레스06",
+      "division": "아마추어",
+      "name": "박현일",
+      "weight": "83.9kg",
+      "result": "판정승",
+      "opponent": "vs 표시우 · 팀피니쉬, 비래"
+    },
+    {
+      "date": "2025.12.21.일",
+      "event": "제우스FC 헤라클레스06",
+      "division": "아마추어",
+      "name": "이지준",
+      "weight": "56.7kg",
+      "result": "1R, 닌자초크승",
+      "opponent": "vs 김강민 · 팀피니쉬"
+    },
+    {
+      "date": "2025.08.17.일",
+      "event": "BEAST CF 17",
+      "division": "비기너",
+      "name": "이지준",
+      "weight": "56.8kg",
+      "result": "1R, RNC승",
+      "opponent": "vs 김주훈 · 코리안탑팀, 강남"
+    },
+    {
+      "date": "2025.08.17.일",
+      "event": "BEAST CF 17",
+      "division": "비기너",
+      "name": "송우경",
+      "weight": "65.8kg",
+      "result": "2R, 파운딩에 의한 TKO패",
+      "opponent": "vs 임채환 · MMA스토리, 파주"
+    },
+    {
+      "date": "2025.08.17.일",
+      "event": "BEAST CF 17",
+      "division": "아마추어",
+      "name": "설주영",
+      "weight": "61.2kg",
+      "result": "1R, 암바승",
+      "opponent": "vs 이제형 · 모아이짐"
+    },
+    {
+      "date": "2025.08.17.일",
+      "event": "BEAST CF 17",
+      "division": "세미프로",
+      "name": "김민규",
+      "weight": "77.1kg",
+      "result": "1R, 닥터 스톱에 의한 패",
+      "opponent": "vs 서연우 · 야차클럽짐"
+    },
+    {
+      "date": "2025.08.17.일",
+      "event": "BEAST CF 17",
+      "division": "세미프로",
+      "name": "고덕훈",
+      "weight": "83.9kg",
+      "result": "1R, 펀치에 의한 TKO 패",
+      "opponent": "vs 김민석 · 코리안탑팀"
+    },
+    {
+      "date": "2025.04.19.토",
+      "event": "BEAST CF 15",
+      "division": "비기너",
+      "name": "양인혁",
+      "weight": "70.3kg",
+      "result": "판정패",
+      "opponent": "vs 김태후 · 코리안탑팀"
+    },
+    {
+      "date": "2025.03.29.토",
+      "event": "블랙컴뱃 비긴즈 09",
+      "division": "아마추어",
+      "name": "양연오",
+      "weight": "84kg",
+      "result": "판정승",
+      "opponent": "vs 박주언 · 코리안좀비MMA"
+    },
+    {
+      "date": "2025.03.29.토",
+      "event": "블랙컴뱃 비긴즈 09",
+      "division": "아마추어",
+      "name": "설주영",
+      "weight": "61.3kg",
+      "result": "2R, 파운딩에 의한 TKO승",
+      "opponent": "vs 최승현 · BNM멀티짐"
+    },
+    {
+      "date": "2024.11.02.토",
+      "event": "블랙컴뱃 비긴즈 07",
+      "division": "세미프로",
+      "name": "김민규",
+      "weight": "77.1kg",
+      "result": "판정패",
+      "opponent": "vs 강태현 · 비전파이트클럽, 여주"
+    },
+    {
+      "date": "2024.11.02.토",
+      "event": "블랙컴뱃 비긴즈 07",
+      "division": "아마추어",
+      "name": "양민서",
+      "weight": "65.8kg",
+      "result": "판정패",
+      "opponent": "vs 조용진 · 코리안갱스터MMA"
+    },
+    {
+      "date": "2024.11.02.토",
+      "event": "블랙컴뱃 비긴즈 07",
+      "division": "아마추어",
+      "name": "설주영",
+      "weight": "61.3kg",
+      "result": "2R, 파운딩에 의한 TKO승",
+      "opponent": "vs 이성호 · 팀컨트롤, 안성"
+    },
+    {
+      "date": "2024.10.05.토",
+      "event": "BEAST CF 12",
+      "division": "비기너",
+      "name": "송준환",
+      "weight": "56.8kg",
+      "result": "판정승",
+      "opponent": "vs 정가온 · 코리안탑팀"
+    },
+    {
+      "date": "2024.10.05.토",
+      "event": "BEAST CF 12",
+      "division": "비기너",
+      "name": "김동우",
+      "weight": "65.8kg",
+      "result": "2R, 펀치에 의한 TKO패",
+      "opponent": "vs 김도윤 · 케이앤비짐"
+    },
+    {
+      "date": "2024.10.05.토",
+      "event": "BEAST CF 12",
+      "division": "비기너",
+      "name": "최경은",
+      "weight": "70.3kg",
+      "result": "판정패",
+      "opponent": "vs 이태환 · 코리안탑팀, 강서"
+    },
+    {
+      "date": "2024.08.03.토",
+      "event": "블랙컴뱃 비긴즈 06",
+      "division": "아마추어",
+      "name": "송준환",
+      "weight": "56.7kg",
+      "result": "판정패",
+      "opponent": "vs 손별 · 춘천 히어로짐"
+    },
+    {
+      "date": "2024.08.03.토",
+      "event": "블랙컴뱃 비긴즈 06",
+      "division": "아마추어",
+      "name": "설주영",
+      "weight": "61.3kg",
+      "result": "판정패",
+      "opponent": "vs 정우진 · 팀매드, 마산"
+    },
+    {
+      "date": "2024.08.03.토",
+      "event": "블랙컴뱃 비긴즈 06",
+      "division": "아마추어",
+      "name": "설주영",
+      "weight": "61.3kg",
+      "result": "1R, 펀치에 의한 TKO패",
+      "opponent": "vs 이치호 · 팀영"
+    },
+    {
+      "date": "2024.08.03.토",
+      "event": "블랙컴뱃 비긴즈 06",
+      "division": "아마추어",
+      "name": "현범수",
+      "weight": "77.1kg",
+      "result": "판정패",
+      "opponent": "vs 장준혁 · 소미션스주짓수"
+    },
+    {
+      "date": "2024.08.03.토",
+      "event": "블랙컴뱃 비긴즈 06",
+      "division": "아마추어",
+      "name": "고덕훈",
+      "weight": "84kg",
+      "result": "무승부",
+      "opponent": "vs 윤인철 · Team Double S"
+    },
+    {
+      "date": "2024.08.03.토",
+      "event": "블랙컴뱃 비긴즈 06",
+      "division": "세미프로",
+      "name": "김민규",
+      "weight": "77.1kg",
+      "result": "2R, RNC에 의한 패",
+      "opponent": "vs 김영선 · Team Double S"
+    },
+    {
+      "date": "2024.07.27.토",
+      "event": "BEAST CF 11",
+      "division": "세미프로",
+      "name": "서지훈",
+      "weight": "65.8kg",
+      "result": "판정승",
+      "opponent": "vs 원동혁 · 팀파시"
+    },
+    {
+      "date": "2024.07.27.토",
+      "event": "BEAST CF 11",
+      "division": "비기너",
+      "name": "최경은",
+      "weight": "70.3kg",
+      "result": "판정패",
+      "opponent": "vs 윤용원 · 차트MMA"
+    },
+    {
+      "date": "2024.07.27.토",
+      "event": "BEAST CF 11",
+      "division": "비기너",
+      "name": "양인혁",
+      "weight": "77.1kg",
+      "result": "판정패",
+      "opponent": "vs 정현우 · 코리안탑팀, 청라"
+    },
+    {
+      "date": "2024.07.27.토",
+      "event": "BEAST CF 11",
+      "division": "아마추어",
+      "name": "장원준",
+      "weight": "61.2kg",
+      "result": "2R, 파운딩에 의한 TKO패",
+      "opponent": "vs 최주영 · 본주짓수, 군포"
+    },
+    {
+      "date": "2024.06.08.토",
+      "event": "블랙컴뱃 비긴즈 05",
+      "division": "아마추어",
+      "name": "이성은",
+      "weight": "65.8kg",
+      "result": "판정승",
+      "opponent": "vs 김성중 · MMA스토리, 오남"
+    },
+    {
+      "date": "2024.06.08.토",
+      "event": "블랙컴뱃 비긴즈 05",
+      "division": "아마추어",
+      "name": "김재진",
+      "weight": "84kg",
+      "result": "1R, 펀치에 의한 TKO승",
+      "opponent": "vs 김형일 · 무소속"
+    },
+    {
+      "date": "2024.06.08.토",
+      "event": "블랙컴뱃 비긴즈 05",
+      "division": "아마추어",
+      "name": "고덕훈",
+      "weight": "84kg",
+      "result": "2R, 파운딩에 의한 TKO승",
+      "opponent": "vs 김민제 · 블랙컴뱃, 대전"
+    },
+    {
+      "date": "2024.06.08.토",
+      "event": "블랙컴뱃 비긴즈 05",
+      "division": "세미프로",
+      "name": "김민규",
+      "weight": "77.1kg",
+      "result": "1R, 기무라승",
+      "opponent": "vs 윤인철 · Team Double S"
+    },
+    {
+      "date": "2024.04.06.토",
+      "event": "블랙컴뱃 비긴즈 04",
+      "division": "아마추어",
+      "name": "송준환",
+      "weight": "56.7kg",
+      "result": "판정승",
+      "opponent": "vs 송태영 · 팀라펠주짓수"
+    },
+    {
+      "date": "2024.04.06.토",
+      "event": "블랙컴뱃 비긴즈 04",
+      "division": "세미프로",
+      "name": "서지훈",
+      "weight": "65.8kg",
+      "result": "판정승",
+      "opponent": "vs 김우빈 · 김대환MMA"
+    },
+    {
+      "date": "2024.02.24.토",
+      "event": "블랙컴뱃 비긴즈 03",
+      "division": "아마추어",
+      "name": "서지훈",
+      "weight": "65.8kg",
+      "result": "판정승",
+      "opponent": "vs Muhammadali"
+    },
+    {
+      "date": "2024.02.03.토",
+      "event": "BEAST CF 08",
+      "division": "아마추어",
+      "name": "서지훈",
+      "weight": "65.8kg",
+      "result": "2R, 파운딩에 의한 TKO승",
+      "opponent": "vs 강자운 · 코리안탑팀"
+    },
+    {
+      "date": "2023.11.04.토",
+      "event": "블랙컴뱃 비긴즈 01",
+      "division": "아마추어",
+      "name": "박지우",
+      "weight": "56.7kg",
+      "result": "판정패",
+      "opponent": "vs 최수빈 · 전주 팀루키"
+    },
+    {
+      "date": "2023.11.04.토",
+      "event": "블랙컴뱃 비긴즈 01",
+      "division": "아마추어",
+      "name": "김민재",
+      "weight": "61.3kg",
+      "result": "2R, 암바승",
+      "opponent": "vs 알렉세이 · 플레임짐"
+    },
+    {
+      "date": "2023.11.04.토",
+      "event": "블랙컴뱃 비긴즈 01",
+      "division": "아마추어",
+      "name": "이성은",
+      "weight": "65.8kg",
+      "result": "판정승",
+      "opponent": "vs 김민준 · 광주 블랙스톤"
+    },
+    {
+      "date": "2023.11.04.토",
+      "event": "블랙컴뱃 비긴즈 01",
+      "division": "아마추어",
+      "name": "김민규",
+      "weight": "84kg",
+      "result": "판정패",
+      "opponent": "vs 윤종현 · 블랙컴뱃 본관"
+    },
+    {
+      "date": "2023.11.04.토",
+      "event": "블랙컴뱃 비긴즈 01",
+      "division": "아마추어",
+      "name": "고덕훈",
+      "weight": "84kg",
+      "result": "판정패",
+      "opponent": "vs 이승준 · 춘천 히어로짐"
+    },
+    {
+      "date": "2023.09.16.토",
+      "event": "BEAST CF 05",
+      "division": "아마추어",
+      "name": "김민재",
+      "weight": "61.2kg",
+      "result": "판정패",
+      "opponent": "vs 김영진 · 코리안탑팀"
+    },
+    {
+      "date": "2023.09.16.토",
+      "event": "BEAST CF 05",
+      "division": "아마추어",
+      "name": "고덕훈",
+      "weight": "93kg",
+      "result": "판정패",
+      "opponent": "vs 김수동 · 싸비MMA"
+    },
+    {
+      "date": "2021.03.13.토",
+      "event": "HFC 01",
+      "division": "비기너",
+      "name": "이성은",
+      "weight": "70kg",
+      "result": "1R, 파운딩에 의한 TKO패",
+      "opponent": "vs 팀무르 · 아산 킹덤"
+    },
+    {
+      "date": "2021.03.13.토",
+      "event": "HFC 01",
+      "division": "비기너",
+      "name": "황인용",
+      "weight": "70kg",
+      "result": "1R, RNC에 의한 패",
+      "opponent": "vs 김형민 · 팀스턴건"
+    },
+    {
+      "date": "2019.09.08.일",
+      "event": "ROAD FC 영건스 44",
+      "division": "프로",
+      "name": "신지승",
+      "weight": "-70kg",
+      "result": "판정패",
+      "opponent": "vs 여제우 · 대구 쎈짐"
+    },
+    {
+      "date": "2019.08.24.토",
+      "event": "로드FC 센트럴리그 49",
+      "division": "아마추어",
+      "name": "고덕훈",
+      "weight": "120.5kg",
+      "result": "1R, 펀치에 의한 TKO승",
+      "opponent": "vs 김경만 · 제주 팀락온"
+    },
+    {
+      "date": "2019.08.24.토",
+      "event": "로드FC 센트럴리그 49",
+      "division": "아마추어",
+      "name": "고덕훈",
+      "weight": "120.5kg",
+      "result": "판정패",
+      "opponent": "vs 백시원 · 평택 엠파이터짐"
+    },
+    {
+      "date": "2019.08.24.토",
+      "event": "로드FC 센트럴리그 49",
+      "division": "아마추어",
+      "name": "서지훈",
+      "weight": "62.5kg",
+      "result": "1R, RNC승",
+      "opponent": "vs 차민혁 · 도깨비MMA"
+    },
+    {
+      "date": "2019.08.24.토",
+      "event": "로드FC 센트럴리그 49",
+      "division": "아마추어",
+      "name": "송정우",
+      "weight": "67kg",
+      "result": "2R, RNC승",
+      "opponent": "vs 박창우 · 본주짓수, 군포"
+    },
+    {
+      "date": "2019.08.24.토",
+      "event": "로드FC 센트럴리그 49",
+      "division": "세미프로",
+      "name": "김민규",
+      "weight": "94.5kg",
+      "result": "1R, 암바에 의한 패",
+      "opponent": "vs 정승호 · 최정규MMA"
+    },
+    {
+      "date": "2019.08.24.토",
+      "event": "로드FC 센트럴리그 49",
+      "division": "비기너",
+      "name": "황수정",
+      "weight": "53kg",
+      "result": "2R, 암바에 의한 패",
+      "opponent": "vs 이보미 · SSMA상승도장"
+    },
+    {
+      "date": "2019.08.24.토",
+      "event": "로드FC 센트럴리그 49",
+      "division": "비기너",
+      "name": "유승우",
+      "weight": "53kg",
+      "result": "1R, 길로틴에 의한 패",
+      "opponent": "vs 허성욱 · 원주 팀쿠마"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "아마추어",
+      "name": "송정우",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 최지환 · 김대환MMA"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "비기너",
+      "name": "장성혁",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 김태수 · 본 주짓수, 병점"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "아마추어",
+      "name": "서지훈",
+      "weight": "62.5kg",
+      "result": "판정패",
+      "opponent": "vs 전동현 · 로드짐 로데오"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "아마추어",
+      "name": "황인용",
+      "weight": "62.5kg",
+      "result": "판정패",
+      "opponent": "vs 김민우 · 로드짐 로데오"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "아마추어",
+      "name": "홍재환",
+      "weight": "62.5kg",
+      "result": "판정패",
+      "opponent": "vs 오창섭 · SSMA상승도장"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "아마추어",
+      "name": "문수빈",
+      "weight": "58kg",
+      "result": "판정승",
+      "opponent": "vs 김문경 · 광주 팀크로우즈"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "아마추어",
+      "name": "오승현",
+      "weight": "58kg",
+      "result": "계체 실패로 인한 패",
+      "opponent": "vs 고나연 · 로드짐 로데오"
+    },
+    {
+      "date": "2019.06.29.토",
+      "event": "로드FC 센트럴리그 48",
+      "division": "아마추어",
+      "name": "오승현",
+      "weight": "58kg",
+      "result": "판정패",
+      "opponent": "vs 이지원 · 모아이짐"
+    },
+    {
+      "date": "2019.05.18.토",
+      "event": "ROAD FC 영건스 42",
+      "division": "프로",
+      "name": "신지승",
+      "weight": "-68kg",
+      "result": "판정승",
+      "opponent": "vs 지영민 · 본주짓수, 병점"
+    },
+    {
+      "date": "2019.03.16.토",
+      "event": "로드FC 센트럴리그 46",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "62.5kg",
+      "result": "판정패",
+      "opponent": "vs 민신희 · 오스타짐"
+    },
+    {
+      "date": "2019.03.16.토",
+      "event": "로드FC 센트럴리그 46",
+      "division": "비기너",
+      "name": "서지훈",
+      "weight": "62.5kg",
+      "result": "1R, 암바승",
+      "opponent": "vs 권준우 · 오스타짐"
+    },
+    {
+      "date": "2019.03.16.토",
+      "event": "로드FC 센트럴리그 46",
+      "division": "비기너",
+      "name": "황인용",
+      "weight": "67kg",
+      "result": "1R, RNC승",
+      "opponent": "vs 윤대한 · 본주짓수, 병점"
+    },
+    {
+      "date": "2019.03.16.토",
+      "event": "로드FC 센트럴리그 46",
+      "division": "비기너",
+      "name": "황인용",
+      "weight": "김준성",
+      "result": "판정패",
+      "opponent": "vs 김준성 · 본주짓수, 병점"
+    },
+    {
+      "date": "2019.02.23.토",
+      "event": "아수라 FC, 부산",
+      "division": "프로",
+      "name": "신지승",
+      "weight": "-80kg",
+      "result": "판정패",
+      "opponent": "vs 윤태영 · 제주 팀더킹"
+    },
+    {
+      "date": "2018.06.23.토",
+      "event": "로드FC 센트럴리그 42",
+      "division": "세미프로",
+      "name": "신지승",
+      "weight": "78.5kg",
+      "result": "1R, RNC승",
+      "opponent": "vs 알리 · 김대환MMA"
+    },
+    {
+      "date": "2018.06.23.토?",
+      "event": "로드FC 센트럴리그 45",
+      "division": "세미프로",
+      "name": "신지승",
+      "weight": "71.5kg",
+      "result": "승",
+      "opponent": "vs 장경빈 · 팀 지니어스"
+    }
+  ]
+}

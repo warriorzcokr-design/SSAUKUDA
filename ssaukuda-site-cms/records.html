@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>선수 · 시합 기록 | 싸우쿠다 트레이닝 센터</title>
+<meta content="싸우쿠다 선수들의 시합 출전 기록과 선수별 전적, 승률. WARRIORZ, BLACK COMBAT, ZEUS FC, BEAST CF, ROAD FC." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="선수 · 시합 기록 | 싸우쿠다 트레이닝 센터" property="og:title"/>
+<meta content="싸우쿠다 선수들의 시합 출전 기록과 선수별 전적, 승률. WARRIORZ, BLACK COMBAT, ZEUS FC, BEAST CF, ROAD FC." property="og:description"/>
+<meta content="images/hero.jpg" property="og:image"/>
+<style>sc-for{display:none}html{scroll-behavior:smooth}body{word-break:keep-all;overflow-wrap:break-word}</style>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&amp;family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<style>
+body{margin:0;background:#111110}
+</style>
+</head>
+<body>
+<div id="page-top" style="width: 100%; min-height: 100vh; background: #111110; color: #F2EEE6; font-family: 'Noto Sans KR', system-ui, sans-serif; line-height: 1.7; word-break: keep-all">
+<header style="position: sticky; top: 0; z-index: 10; background: rgba(17,17,16,0.96); border-bottom: 1px solid #2A2926">
+<div style="max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px">
+<a href="index.html" style="display: flex; align-items: baseline; gap: 10px; text-decoration: none; color: #F2EEE6"><span style="font-family: 'Black Han Sans', sans-serif; font-size: 28px; letter-spacing: 1px">SSAUKUDA</span><span style="font-size: 12px; color: #A8A39A; letter-spacing: 2px">TRAINING CENTER</span></a>
+<nav aria-label="주 메뉴" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 24px; font-size: 15px">
+<a href="index.html#classes" style="color: #F2EEE6; text-decoration: none; padding: 10px 0">수업 안내</a>
+<a href="index.html#price" style="color: #F2EEE6; text-decoration: none; padding: 10px 0">수강료</a>
+<a href="index.html#coach-wrap" style="color: #F2EEE6; text-decoration: none; padding: 10px 0">코치 소개</a>
+<a href="index.html#records" style="color: #2EC45A; font-weight: 700; text-decoration: none; padding: 10px 0">선수·시합</a>
+<a href="#contact" style="padding: 9px 18px; border: 1px solid #2EC45A; color: #2EC45A; font-weight: 700; border-radius: 4px; text-decoration: none">상담 문의</a>
+</nav>
+</div>
+</header>
+<section style="max-width: 1200px; margin: 0 auto; padding: 80px 24px 48px">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 700; letter-spacing: 3px; color: #2EC45A"><span data-c="s1.t1">선수 · 시합 기록</span></p>
+<h1 style="margin: 0 0 20px; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: clamp(40px, 6vw, 72px); line-height: 1.1"><span data-c="s1.t2">실천이 없으면 증명이 없다.</span></h1>
+<p style="margin: 0; max-width: 720px; font-size: 18px; color: #C9C4BA"><span data-c="s1.t3">싸우쿠다의 모든 프로그램은 아마추어 시합에서 프로 시합까지 도전하는 과정으로 짜여 있습니다. 매트 위에서 흘린 땀을 시합으로 증명한 싸우쿠다 사람들의 기록입니다.</span></p>
+</section>
+<section style="border-top: 1px solid #2A2926; border-bottom: 1px solid #2A2926; background: #181816">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px 40px">
+<div><p style="margin: 0; font-size: 14px; color: #A8A39A"><span data-c="s2.t1">시합 출전 선수</span></p><p style="margin: 4px 0 0; font-family: 'Black Han Sans', sans-serif; font-size: 36px; line-height: 1.2">{{playerCount}}명</p></div>
+<div><p style="margin: 0; font-size: 14px; color: #A8A39A"><span data-c="s2.t2">누적 출전 경기</span></p><p style="margin: 4px 0 0; font-family: 'Black Han Sans', sans-serif; font-size: 36px; line-height: 1.2">{{matchCount}}경기</p></div>
+<div><p style="margin: 0; font-size: 14px; color: #A8A39A"><span data-c="s2.t3">프로 데뷔 선수</span></p><p style="margin: 4px 0 0; font-family: 'Black Han Sans', sans-serif; font-size: 36px; line-height: 1.2"><span data-c="s2.t4">2명</span></p></div>
+<div><p style="margin: 0; font-size: 14px; color: #A8A39A"><span data-c="s2.t5">출전 대회</span></p><div style="margin: 4px 0 0; font-family: 'Black Han Sans', sans-serif; font-size: 22px; line-height: 1.6"><ul><li><span data-c="s2.t6">WARRIORZ</span></li><li><span data-c="s2.t7">BLACK COMBAT</span></li><li><span data-c="s2.t8">ZEUS FC</span></li><li><span data-c="s2.t9">BEAST CF</span></li><li><span data-c="s2.t10">ROAD FC</span></li></ul></div></div>
+</div>
+</section>
+<section style="max-width: 1200px; margin: 0 auto; padding: 80px 24px 56px">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 700; letter-spacing: 3px; color: #2EC45A"><span data-c="s3.t1">소속 선수</span></p>
+<h2 style="margin: 0 0 32px; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: clamp(30px, 4vw, 44px); line-height: 1.2"><span data-c="s3.t2">싸우쿠다의 전사들</span></h2>
+<div id="fighter-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<div style="background: #1B1A18; border: 1px solid #2A2926; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column">
+<div data-photo-slot="" style="aspect-ratio: 4 / 5; border-bottom: 1px solid #2A2926; display: flex; align-items: center; justify-content: center; color: #A8A39A; font-size: 15px"><img alt="선수 사진" data-ci="photos.slot1" hidden="" style="width: 100%; height: 100%; object-fit: cover"/><span data-photo-empty="">[선수 사진]</span></div>
+<div style="padding: 22px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 14px; color: #2EC45A; font-weight: 700"><span data-c="s3.t3">[페더급]</span></span>
+<span data-card-name="0" style="font-size: 22px; font-weight: 700; color: #F2EEE6"><span data-c="s3.t4">신지승</span></span>
+<span style="font-size: 17px; font-weight: 700; color: #F2EEE6; margin-top: 4px">{{card0Summary}}</span>
+<div style="display: {{card0DivDisplay}}; flex-wrap: wrap; gap: 6px; margin-top: 4px"><sc-for as="dv" list="{{card0Divs}}"><span style="display: inline-flex; gap: 6px; padding: 3px 9px; border: 1px solid #2A2926; border-radius: 4px; background: #111110; font-size: 13px; line-height: 1.5; color: #C9C4BA; white-space: nowrap"><span style="color: #2EC45A; font-weight: 700">{{dv.label}}</span>{{dv.rec}}</span></sc-for></div>
+<div style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px; padding-top: 14px; border-top: 1px solid #2A2926">
+<sc-for as="g" list="{{card0Games}}"><div style="display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.5; color: #A8A39A"><span style="flex: none; min-width: 22px; text-align: center; padding: 1px 6px; border-radius: 4px; font-size: 12px; font-weight: 700; {{g.badgeStyle}}">{{g.badge}}</span><span>{{g.text}}</span></div></sc-for>
+<span style="display: {{card0MoreDisplay}}; font-size: 13px; color: #77736B">{{card0MoreText}}</span>
+</div>
+</div>
+</div>
+<div style="background: #1B1A18; border: 1px solid #2A2926; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column">
+<div data-photo-slot="" style="aspect-ratio: 4 / 5; border-bottom: 1px solid #2A2926; display: flex; align-items: center; justify-content: center; color: #A8A39A; font-size: 15px"><img alt="선수 사진" data-ci="photos.slot2" hidden="" style="width: 100%; height: 100%; object-fit: cover"/><span data-photo-empty="">[선수 사진]</span></div>
+<div style="padding: 22px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 14px; color: #2EC45A; font-weight: 700"><span data-c="s3.t5">[체급]</span></span>
+<span data-card-name="1" style="font-size: 22px; font-weight: 700; color: #F2EEE6"><span data-c="s3.t6">송정우</span></span>
+<span style="font-size: 17px; font-weight: 700; color: #F2EEE6; margin-top: 4px">{{card1Summary}}</span>
+<div style="display: {{card1DivDisplay}}; flex-wrap: wrap; gap: 6px; margin-top: 4px"><sc-for as="dv" list="{{card1Divs}}"><span style="display: inline-flex; gap: 6px; padding: 3px 9px; border: 1px solid #2A2926; border-radius: 4px; background: #111110; font-size: 13px; line-height: 1.5; color: #C9C4BA; white-space: nowrap"><span style="color: #2EC45A; font-weight: 700">{{dv.label}}</span>{{dv.rec}}</span></sc-for></div>
+<div style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px; padding-top: 14px; border-top: 1px solid #2A2926">
+<sc-for as="g" list="{{card1Games}}"><div style="display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.5; color: #A8A39A"><span style="flex: none; min-width: 22px; text-align: center; padding: 1px 6px; border-radius: 4px; font-size: 12px; font-weight: 700; {{g.badgeStyle}}">{{g.badge}}</span><span>{{g.text}}</span></div></sc-for>
+<span style="display: {{card1MoreDisplay}}; font-size: 13px; color: #77736B">{{card1MoreText}}</span>
+</div>
+</div>
+</div>
+<div style="background: #1B1A18; border: 1px solid #2A2926; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column">
+<div data-photo-slot="" style="aspect-ratio: 4 / 5; border-bottom: 1px solid #2A2926; display: flex; align-items: center; justify-content: center; color: #A8A39A; font-size: 15px"><img alt="선수 사진" data-ci="photos.slot3" hidden="" style="width: 100%; height: 100%; object-fit: cover"/><span data-photo-empty="">[선수 사진]</span></div>
+<div style="padding: 22px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 14px; color: #2EC45A; font-weight: 700"><span data-c="s3.t7">[체급]</span></span>
+<span data-card-name="2" style="font-size: 22px; font-weight: 700; color: #F2EEE6"><span data-c="s3.t8">[선수 이름]</span></span>
+<span style="font-size: 17px; font-weight: 700; color: #F2EEE6; margin-top: 4px">{{card2Summary}}</span>
+<div style="display: {{card2DivDisplay}}; flex-wrap: wrap; gap: 6px; margin-top: 4px"><sc-for as="dv" list="{{card2Divs}}"><span style="display: inline-flex; gap: 6px; padding: 3px 9px; border: 1px solid #2A2926; border-radius: 4px; background: #111110; font-size: 13px; line-height: 1.5; color: #C9C4BA; white-space: nowrap"><span style="color: #2EC45A; font-weight: 700">{{dv.label}}</span>{{dv.rec}}</span></sc-for></div>
+<div style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px; padding-top: 14px; border-top: 1px solid #2A2926">
+<sc-for as="g" list="{{card2Games}}"><div style="display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.5; color: #A8A39A"><span style="flex: none; min-width: 22px; text-align: center; padding: 1px 6px; border-radius: 4px; font-size: 12px; font-weight: 700; {{g.badgeStyle}}">{{g.badge}}</span><span>{{g.text}}</span></div></sc-for>
+<span style="display: {{card2MoreDisplay}}; font-size: 13px; color: #77736B">{{card2MoreText}}</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section style="max-width: 1200px; margin: 0 auto; padding: 56px 24px">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 700; letter-spacing: 3px; color: #2EC45A"><span data-c="s4.t1">선수별 전적</span></p>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 32px; margin: 0 0 28px">
+<h2 style="margin: 0; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: clamp(30px, 4vw, 44px); line-height: 1.2"><span data-c="s4.t2">승패와 승률</span></h2>
+<p style="margin: 0; font-size: 16px; color: #C9C4BA"><span data-c="s4.t3">팀 전체</span> <strong style="color: #F2EEE6">{{teamRecord}}</strong> <span data-c="s4.t4">· 승률</span> <strong style="color: #2EC45A">{{teamRate}}</strong></p>
+</div>
+<div style="border: 1px solid #2A2926; border-radius: 8px; overflow-x: auto">
+<div aria-label="선수별 전적" role="table" style="min-width: 680px">
+<div role="row" style="display: grid; grid-template-columns: minmax(120px, 1.4fr) repeat(4, minmax(56px, 0.6fr)) minmax(170px, 1.6fr) minmax(80px, 0.8fr); gap: 0 12px; padding: 14px 24px; border-bottom: 1px solid #2A2926; font-size: 14px; color: #A8A39A">
+<span role="columnheader">선수</span><span role="columnheader">경기</span><span role="columnheader">승</span><span role="columnheader">패</span><span role="columnheader">무</span><span role="columnheader">승률</span><span role="columnheader">피니시 승</span>
+</div>
+<sc-for as="p" hint-placeholder-count="8" list="{{playerStats}}">
+<div role="row" style="display: {{p.rowDisplay}}; opacity: {{p.rowOpacity}}; grid-template-columns: minmax(120px, 1.4fr) repeat(4, minmax(56px, 0.6fr)) minmax(170px, 1.6fr) minmax(80px, 0.8fr); gap: 0 12px; align-items: center; padding: 14px 24px; border-bottom: 1px solid #2A2926; font-size: 16px">
+<span role="cell" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap"><span style="font-weight: 700">{{p.name}}</span><span style="display: {{p.tagDisplay}}; padding: 1px 6px; border: 1px solid #4A4842; border-radius: 4px; font-size: 12px; color: #A8A39A; white-space: nowrap">전 소속</span></span>
+<span role="cell">{{p.g}}</span>
+<span role="cell" style="color: #2EC45A; font-weight: 700">{{p.w}}</span>
+<span role="cell">{{p.l}}</span>
+<span role="cell" style="color: #A8A39A">{{p.d}}</span>
+<span role="cell" style="display: flex; align-items: center; gap: 10px"><span style="flex: 1; height: 6px; border-radius: 3px; background: #2A2926; overflow: hidden"><span style="display: block; height: 100%; background: #2EC45A; {{p.barStyle}}"></span></span><span style="min-width: 44px; text-align: right; font-weight: 700">{{p.rateText}}</span></span>
+<span role="cell" style="color: #C9C4BA">{{p.fin}}</span>
+</div>
+</sc-for>
+</div>
+</div>
+<div style="display: {{statsBtnDisplay}}; justify-content: center; margin-top: 20px">
+<button aria-expanded="{{statsOpen}}" data-dc-onclick="{{toggleStats}}" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 28px; background: transparent; border: 1px solid #2EC45A; border-radius: 4px; color: #2EC45A; font-family: inherit; font-size: 16px; font-weight: 700; cursor: pointer" type="button">{{statsLabel}}</button>
+</div>
+<p style="margin: 14px 0 0; font-size: 14px; color: #A8A39A"><span data-c="s4.t5">아래 시합 기록 표를 바탕으로 자동 계산돼요. 승률은 전체 경기(무승부 포함) 중 승리 비율이며, 피니시 승은 판정이 아닌 KO·TKO·서브미션 승리예요.</span></p>
+</section>
+<section style="max-width: 1200px; margin: 0 auto; padding: 56px 24px">
+<p style="margin: 0 0 12px; font-size: 14px; font-weight: 700; letter-spacing: 3px; color: #2EC45A"><span data-c="s5.t1">시합 기록</span></p>
+<h2 style="margin: 0 0 32px; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: clamp(30px, 4vw, 44px); line-height: 1.2"><span data-c="s5.t2">최근 출전 경기</span></h2>
+<div style="border: 1px solid #2A2926; border-radius: 8px; overflow-x: auto">
+<table id="match-table" style="width: 100%; min-width: 960px; border-collapse: collapse; font-size: 16px">
+<thead>
+<tr style="color: #A8A39A; font-size: 14px">
+<th scope="col" style="text-align: left; padding: 14px 24px; font-weight: 500; border-bottom: 1px solid #2A2926; width: 92px">날짜</th>
+<th scope="col" style="text-align: left; padding: 14px 16px; font-weight: 500; border-bottom: 1px solid #2A2926; width: 157px">대회</th>
+<th scope="col" style="text-align: left; padding: 14px 16px; font-weight: 500; border-bottom: 1px solid #2A2926">신청 부문</th>
+<th scope="col" style="text-align: left; padding: 14px 16px; font-weight: 500; border-bottom: 1px solid #2A2926">선수</th>
+<th scope="col" style="text-align: left; padding: 14px 16px; font-weight: 500; border-bottom: 1px solid #2A2926">체급</th>
+<th scope="col" style="text-align: left; padding: 14px 16px; font-weight: 500; border-bottom: 1px solid #2A2926; width: 155px">결과</th>
+<th scope="col" style="text-align: left; padding: 14px 24px; font-weight: 500; border-bottom: 1px solid #2A2926">기록</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap; color: #ffffff">2026.09.19.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; width: 141px">제우스FC 헤라클레스11</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap; width: 66px">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; width: 86px">이지준</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap; width: 81px">56.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; width: 166px; color: #2ec45a"><b>판정승</b><br/></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; width: 210px; color: #a8a39a">vs 차재혁 · 익스트림컴뱃, 수원</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.09.19.토<br/></td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">제우스FC 헤라클레스11</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">양인혁</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926"><font color="#2ec45a" style="color: #ffffff">판정패</font></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #a8a39a">vs 이규호 · 익스트림컴뱃, 수원</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.09.19.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">제우스FC 헤라클레스11</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">양인혁</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>2R, 암바승</b><br/></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #a8a39a">vs 이주현 · 익스트림컴뱃, 수원</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.08.22.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">WARRIORZ 001</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민규</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap; text-align: start">85.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, 닥터 스톱에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김태근 · 팀동백</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.08.22.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">WARRIORZ 001</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">양인혁</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">78.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김승현 · 싸비MMA, 합정</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.08.22.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">WARRIORZ 001</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">이지준</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">58kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 문준하 · 팀파시, 강북</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.08.22.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">WARRIORZ 001</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">최경은</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">75kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">RNC에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 박제민 · 싸비MMA, 철산</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.08.22.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">WARRIORZ 001</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">박지우</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">62.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 박경서 · 싸비MMA, 송도</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.08.22.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">WARRIORZ 001</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">박주현</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">-58kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">암바에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이찬민 · 오리진주짓수</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.03.14.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">제우스FC 헤라클레스07</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">설주영</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.2kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 황수민 · 퍼스트 짐, 나주</td>
+</tr>
+</tbody>
+<tbody style="display: {{moreDisplay}}">
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.03.14.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">제우스FC 헤라클레스07</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김재진</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">83.9kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김효령 · 파라에스트라, 목포</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2026.03.14.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">제우스FC 헤라클레스07</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">강종헌</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">120kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 정우성 · 팀매드, 청주</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.12.21.일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">제우스FC 헤라클레스06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">박현일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">83.9kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 표시우 · 팀피니쉬, 비래</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.12.21.일<br/></td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">제우스FC 헤라클레스06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">이지준</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">56.7kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, 닌자초크승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김강민 · 팀피니쉬</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.08.17.일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 17</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">이지준</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">56.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, RNC승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김주훈 · 코리안탑팀, 강남</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.08.17.일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 17</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">송우경</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">2R, 파운딩에 의한 TKO패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 임채환 · MMA스토리, 파주</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.08.17.일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 17</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">설주영</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.2kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, 암바승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이제형 · 모아이짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.08.17.일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 17</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민규</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, 닥터 스톱에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 서연우 · 야차클럽짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.08.17.일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 17</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">고덕훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">83.9kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, 펀치에 의한 TKO 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김민석 · 코리안탑팀</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.04.19.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 15</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">양인혁</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">70.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김태후 · 코리안탑팀</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.03.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 09</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">양연오</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">84kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 박주언 · 코리안좀비MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2025.03.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 09</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">설주영</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>2R, 파운딩에 의한 TKO승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 최승현 · BNM멀티짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.11.02.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 07</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민규</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 강태현 · 비전파이트클럽, 여주</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.11.02.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 07</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">양민서</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 조용진 · 코리안갱스터MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.11.02.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 07</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">설주영</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>2R, 파운딩에 의한 TKO승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이성호 · 팀컨트롤, 안성</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.10.05.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 12</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">송준환</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">56.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 정가온 · 코리안탑팀</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.10.05.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 12</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김동우</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">2R, 펀치에 의한 TKO패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김도윤 · 케이앤비짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.10.05.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 12</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">최경은</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">70.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이태환 · 코리안탑팀, 강서</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.08.03.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">송준환</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">56.7kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 손별 · 춘천 히어로짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.08.03.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">설주영</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 정우진 · 팀매드, 마산</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.08.03.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">설주영</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, 펀치에 의한 TKO패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이치호 · 팀영</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.08.03.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">현범수</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 장준혁 · 소미션스주짓수</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.08.03.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">고덕훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">84kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">무승부</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 윤인철 · Team Double S</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.08.03.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 06</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민규</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">2R, RNC에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김영선 · Team Double S</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.07.27.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 11</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">서지훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 원동혁 · 팀파시</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.07.27.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 11</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">최경은</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">70.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 윤용원 · 차트MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.07.27.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 11</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">양인혁</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 정현우 · 코리안탑팀, 청라</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.07.27.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 11</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">장원준</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.2kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">2R, 파운딩에 의한 TKO패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 최주영 · 본주짓수, 군포</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.06.08.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 05</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">이성은</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김성중 · MMA스토리, 오남</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.06.08.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 05</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김재진</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">84kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, 펀치에 의한 TKO승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김형일 · 무소속</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.06.08.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 05</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">고덕훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">84kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>2R, 파운딩에 의한 TKO승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김민제 · 블랙컴뱃, 대전</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.06.08.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 05</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민규</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">77.1kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, 기무라승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 윤인철 · Team Double S</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.04.06.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 04</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">송준환</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">56.7kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 송태영 · 팀라펠주짓수</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.04.06.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 04</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">서지훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김우빈 · 김대환MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.02.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 03</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">서지훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926"><b style="color: rgb(46, 196, 90)">판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs Muhammadali</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2024.02.03.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 08</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">서지훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>2R, 파운딩에 의한 TKO승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 강자운 · 코리안탑팀</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2023.11.04.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 01</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">박지우</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">56.7kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 최수빈 · 전주 팀루키</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2023.11.04.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 01</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민재</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.3kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>2R, 암바승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 알렉세이 · 플레임짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2023.11.04.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 01</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">이성은</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">65.8kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정승</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김민준 · 광주 블랙스톤</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2023.11.04.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 01</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민규</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">84kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 윤종현 · 블랙컴뱃 본관</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2023.11.04.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">블랙컴뱃 비긴즈 01</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926"><span style="white-space: nowrap">고덕훈</span></td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">84kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이승준 · 춘천 히어로짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2023.09.16.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 05</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민재</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">61.2kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김영진 · 코리안탑팀</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2023.09.16.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">BEAST CF 05</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">고덕훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">93kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김수동 · 싸비MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2021.03.13.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">HFC 01</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">이성은</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">70kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, 파운딩에 의한 TKO패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 팀무르 · 아산 킹덤</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2021.03.13.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">HFC 01</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">황인용</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">70kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, RNC에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김형민 · 팀스턴건</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.09.08.일</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">ROAD FC 영건스 44</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">신지승</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">-70kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 여제우 · 대구 쎈짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.08.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 49</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">고덕훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">120.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, 펀치에 의한 TKO승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김경만 · 제주 팀락온</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.08.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 49</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">고덕훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">120.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 백시원 · 평택 엠파이터짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.08.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 49</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">서지훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">62.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, RNC승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 차민혁 · 도깨비MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.08.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 49</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">송정우</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">67kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>2R, RNC승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 박창우 · 본주짓수, 군포</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.08.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 49</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">김민규</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">94.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, 암바에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 정승호 · 최정규MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.08.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 49</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">황수정</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">53kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">2R, 암바에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이보미 · SSMA상승도장</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.08.24.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 49</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">유승우</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">53kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">1R, 길로틴에 의한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 허성욱 · 원주 팀쿠마</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">송정우</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">67kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정승</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 최지환 · 김대환MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">장성혁</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">67kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정승</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김태수 · 본 주짓수, 병점</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">서지훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">62.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 전동현 · 로드짐 로데오</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">황인용</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">62.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김민우 · 로드짐 로데오</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">홍재환</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">62.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 오창섭 · SSMA상승도장</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">문수빈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">58kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정승</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김문경 · 광주 팀크로우즈</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">오승현</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">58kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">계체 실패로 인한 패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 고나연 · 로드짐 로데오</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.06.29.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 48</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">아마추어</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">오승현</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">58kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 이지원 · 모아이짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.05.18.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">ROAD FC 영건스 42</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">신지승</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">-68kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926"><b style="color: rgb(46, 196, 90)">판정승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 지영민 · 본주짓수, 병점</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.03.16.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 46</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">박석한</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">62.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 민신희 · 오스타짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.03.16.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 46</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">서지훈</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">62.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, 암바승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 권준우 · 오스타짐</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.03.16.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 46</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">황인용</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">67kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, RNC승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 윤대한 · 본주짓수, 병점</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.03.16.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 46</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">비기너</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">황인용</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">김준성</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 김준성 · 본주짓수, 병점</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2019.02.23.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">아수라 FC, 부산</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">신지승</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">-80kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">판정패</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 윤태영 · 제주 팀더킹</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2018.06.23.토</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 42</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">신지승</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">78.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #2ec45a"><b>1R, RNC승</b></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 알리 · 김대환MMA</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">2018.06.23.토?</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">로드FC 센트럴리그 45</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">세미프로</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">신지승</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">71.5kg</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926"><span style="color: rgb(255, 255, 255)">승</span></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">vs 장경빈 · 팀 지니어스</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; color: #ffffff"><span style="color: rgb(242, 238, 230)">[승 / 패 · 결정 방법]</span></td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[대회명]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[선수 이름]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px; border-bottom: 1px solid #2A2926">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; border-bottom: 1px solid #2A2926; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+<tr>
+<td style="padding: 18px 24px; white-space: nowrap">[날짜]</td>
+<td style="padding: 18px 16px">[대회명]</td>
+<td style="padding: 18px 16px; white-space: nowrap">[신청 부문]</td>
+<td style="padding: 18px 16px">[선수 이름]</td>
+<td style="padding: 18px 16px; white-space: nowrap">[체급]</td>
+<td style="padding: 18px 16px">[승 / 패 · 결정 방법]</td>
+<td style="padding: 18px 24px; color: #A8A39A">[상대 · 소속]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="display: flex; justify-content: center; margin-top: 20px">
+<button aria-expanded="{{moreOpen}}" data-dc-onclick="{{toggleMore}}" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 28px; background: transparent; border: 1px solid #2EC45A; border-radius: 4px; color: #2EC45A; font-family: inherit; font-size: 16px; font-weight: 700; cursor: pointer" type="button">{{moreLabel}}</button>
+</div>
+</section>
+<section id="contact" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 80px">
+<div style="background: #1B1A18; border: 1px solid #2A2926; border-radius: 8px; padding: 48px 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px">
+<div style="flex: 1 1 420px; min-width: 0">
+<h2 style="margin: 0 0 8px; font-family: 'Black Han Sans', sans-serif; font-weight: 400; font-size: clamp(28px, 4vw, 40px); line-height: 1.2"><span data-c="s6.t1">다음 기록의 주인공은 당신입니다.</span></h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a data-ch="links.link1" href="#contact" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; background: #111110; border: 1px solid #4A4842; color: #F2EEE6; font-weight: 700; font-size: 17px; text-decoration: none; border-radius: 4px"><svg aria-hidden="true" height="22" viewbox="0 0 24 24" width="22"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.8 1.8 5.3 4.6 6.7L5.7 21l3.9-2.6c.8.1 1.6.2 2.4.2 5.5 0 10-3.6 10-8S17.5 3 12 3z" fill="#FEE500"></path></svg><span data-c="s6.t2">카카오톡 문의</span></a>
+<a data-ch="links.link2" href="tel:01093394183" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; background: #111110; border: 1px solid #4A4842; color: #F2EEE6; font-weight: 700; font-size: 17px; text-decoration: none; border-radius: 4px"><svg aria-hidden="true" fill="none" height="20" stroke="#2EC45A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="20"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg><span data-c="s6.t3">010-9339-4183</span></a>
+</div>
+</div>
+</section>
+<div style="display: flex; justify-content: center; padding: 0 24px 56px">
+<button aria-label="맨 위로 이동" data-dc-onclick="{{goTop}}" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 28px; background: transparent; border: 1px solid #2EC45A; border-radius: 4px; color: #2EC45A; font-family: inherit; font-size: 16px; font-weight: 700; cursor: pointer" type="button"><svg aria-hidden="true" fill="none" height="18" stroke="#2EC45A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="18"><path d="M12 19V5"></path><path d="M5 12l7-7 7 7"></path></svg>맨 위로</button>
+</div>
+<footer style="border-top: 1px solid #2A2926; background: #181816">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; font-size: 14px; color: #A8A39A">
+<span><span data-c="s8.t1">© 2026 싸우쿠다 트레이닝 센터</span></span>
+<span><span data-c="s8.t2">010-9339-4183 · ssaukuda@naver.com · 카카오톡 teamssaukuda</span></span>
+</div>
+</footer>
+</div>
+<script src="content.js"></script>
+<script src="dc-lite.js"></script>
+<script>
+class Component extends DCLogic {
+  componentDidMount() {
+    const toTop = () => {
+      try {
+        const el = document.getElementById('page-top');
+        let p = el;
+        while (p) { if (p.scrollTop) p.scrollTop = 0; p = p.parentElement; }
+        if (document.scrollingElement) document.scrollingElement.scrollTop = 0;
+        window.scrollTo(0, 0);
+        if (el && el.scrollIntoView) el.scrollIntoView({ block: 'start' });
+      } catch (e) {}
+    };
+    toTop();
+    setTimeout(toTop, 60);
+    setTimeout(toTop, 300);
+    this.countRecords();
+    this.applyDim();
+    try {
+      const t = document.getElementById('match-table');
+      if (t && window.MutationObserver) {
+        this._obs = new MutationObserver(() => { this.countRecords(); this.applyDim(); });
+        this._obs.observe(t, { subtree: true, childList: true, characterData: true });
+        const fc = document.getElementById('fighter-cards');
+        if (fc) this._obs.observe(fc, { subtree: true, childList: true, characterData: true });
+      }
+    } catch (e) {}
+  }
+  transferredSet() {
+    const raw = this.props.transferred ?? '서지훈, 설주영, 김민재';
+    return new Set(String(raw).split(/[,，\n]/).map((x) => x.replace(/\u00a0/g, ' ').trim()).filter(Boolean));
+  }
+  applyDim() {
+    try {
+      const t = document.getElementById('match-table');
+      if (!t) return;
+      const set = this.transferredSet();
+      t.querySelectorAll('tbody tr').forEach((tr) => {
+        const c = tr.querySelectorAll('td');
+        if (c.length < 4) return;
+        const nm = (c[3].textContent || '').replace(/\u00a0/g, ' ').trim();
+        const want = set.has(nm) ? '0.4' : '';
+        if (tr.style.opacity !== want) tr.style.opacity = want;
+      });
+    } catch (e) {}
+  }
+  componentDidUpdate() {
+    this.applyDim();
+  }
+  componentWillUnmount() {
+    if (this._obs) this._obs.disconnect();
+  }
+  countRecords() {
+    try {
+      const t = document.getElementById('match-table');
+      if (!t) return;
+      const names = new Set();
+      let matches = 0;
+      const stats = {};
+      const order = [];
+      const gamesBy = {};
+      t.querySelectorAll('tbody tr').forEach((tr) => {
+        const cells = tr.querySelectorAll('td');
+        if (cells.length < 4) return;
+        const name = (cells[3].textContent || '').replace(/ /g, ' ').trim();
+        if (!name || name.charAt(0) === '[') return;
+        matches += 1;
+        names.add(name);
+        if (!stats[name]) { stats[name] = { name: name, w: 0, l: 0, d: 0, fin: 0 }; order.push(name); }
+        const st = stats[name];
+        const res = cells.length > 5 ? (cells[5].textContent || '').replace(/\s+/g, ' ').trim() : '';
+        if (res.indexOf('무승부') !== -1) { st.d += 1; }
+        else if (/패$/.test(res)) { st.l += 1; }
+        else if (/승$/.test(res)) { st.w += 1; if (res.indexOf('판정') === -1) st.fin += 1; }
+        const cellText = (i) => (cells[i] ? (cells[i].textContent || '').replace(/\s+/g, ' ').trim() : '');
+        let badge = '?', badgeStyle = 'background: #2A2926; color: #A8A39A';
+        if (res.indexOf('무승부') !== -1) { badge = '무'; }
+        else if (/패$/.test(res)) { badge = '패'; badgeStyle = 'background: #2A2926; color: #D6D1C8'; }
+        else if (/승$/.test(res)) { badge = '승'; badgeStyle = 'background: #2EC45A; color: #111110'; }
+        const known = badge !== '?';
+        const method = known ? res.replace(/무승부$/, '').replace(/(에\s*의한)?\s*(승|패)$/, '').replace(/[,\s]+$/, '').trim() : '결과 입력 필요';
+        const evt = cellText(1), wt = cellText(4), opp = cellText(6);
+        const parts = [];
+        if (evt && evt.charAt(0) !== '[') parts.push(evt);
+        if (method) parts.push(method);
+        if (opp && opp.charAt(0) !== '[') parts.push(opp.replace(/\s*·\s*\[[^\]]*\]$/, ''));
+        let text = parts.join(' · ');
+        if (wt && wt.charAt(0) !== '[') text += ' (' + wt + ')';
+        (gamesBy[name] = gamesBy[name] || []).push({ badge: badge, badgeStyle: badgeStyle, text: text, div: cellText(2) });
+      });
+      const list = order.map((n) => {
+        const st = stats[n];
+        const g = st.w + st.l + st.d;
+        return { name: st.name, g: g, w: st.w, l: st.l, d: st.d, fin: st.fin, rate: g ? Math.round(st.w / g * 100) : 0 };
+      }).sort((a, b) => (b.g - a.g) || (b.w - a.w) || (b.rate - a.rate));
+      let tw = 0, tl = 0, td = 0;
+      list.forEach((p) => { tw += p.w; tl += p.l; td += p.d; p.rateText = p.g ? p.rate + '%' : '-'; p.barStyle = 'width: ' + p.rate + '%'; });
+      const tg = tw + tl + td;
+      const cards = {};
+      document.querySelectorAll('[data-card-name]').forEach((el) => {
+        const idx = el.getAttribute('data-card-name');
+        const nm = (el.textContent || '').replace(/\u00a0/g, ' ').trim();
+        const games = (nm && nm.charAt(0) !== '[') ? (gamesBy[nm] || []) : null;
+        const c = { summary: '', games: [], more: '' };
+        if (games === null) { c.summary = '[전적 · 자동 표시]'; }
+        else if (!games.length) { c.summary = '시합 기록 준비 중'; }
+        else {
+          const st = stats[nm];
+          c.summary = games.length + '전 ' + st.w + '승 ' + st.l + '패' + (st.d ? ' ' + st.d + '무' : '');
+          const dmap = {}, dorder = [];
+          games.forEach((g) => {
+            let d = (g.div || '').replace(/\s+/g, '');
+            if (!d || d.charAt(0) === '[') d = '기타';
+            else if (d.indexOf('세미') === 0) d = '세미프로';
+            else if (d.indexOf('아마') === 0) d = '아마';
+            else if (d.indexOf('비기') === 0) d = '비기너';
+            else if (d.indexOf('프로') === 0) d = '프로';
+            if (!dmap[d]) { dmap[d] = { w: 0, l: 0, d: 0, n: 0 }; dorder.push(d); }
+            const r = dmap[d];
+            r.n += 1;
+            if (g.badge === '승') r.w += 1; else if (g.badge === '패') r.l += 1; else if (g.badge === '무') r.d += 1;
+          });
+          const rank = { '프로': 0, '세미프로': 1, '아마': 2, '비기너': 3, '기타': 9 };
+          c.divs = dorder.sort((a, b) => (rank[a] ?? 5) - (rank[b] ?? 5)).map((d) => {
+            const r = dmap[d];
+            return { label: d, rec: r.w + '승 ' + r.l + '패' + (r.d ? ' ' + r.d + '무' : '') };
+          });
+          c.games = games.slice(0, 3);
+          if (games.length > 3) c.more = '외 ' + (games.length - 3) + '경기 · 아래 시합 기록 참고';
+        }
+        cards[idx] = c;
+      });
+      const key = JSON.stringify(list) + '|' + matches + '|' + JSON.stringify(cards);
+      const s = this.state || {};
+      if (s.statsKey !== key) {
+        this.setState({
+          statsKey: key,
+          matchCount: matches,
+          playerCount: names.size,
+          playerStats: list,
+          teamRecord: tw + '승 ' + tl + '패' + (td ? ' ' + td + '무' : ''),
+          teamRate: tg ? Math.round(tw / tg * 100) + '%' : '-',
+          cards: cards
+        });
+      }
+    } catch (e) {}
+  }
+  renderVals() {
+    const s = this.state || {};
+    const open = s.moreOpen !== undefined ? !!s.moreOpen : !!this.props.showAll;
+    const statsOpen = s.statsOpen !== undefined ? !!s.statsOpen : !!this.props.showAll;
+    return {
+      matchCount: s.matchCount !== undefined ? s.matchCount : 38,
+      playerCount: s.playerCount !== undefined ? s.playerCount : 19,
+      playerStats: (() => {
+        const set = this.transferredSet();
+        const all = s.playerStats || [];
+        const sorted = all.filter((p) => !set.has(p.name)).concat(all.filter((p) => set.has(p.name)));
+        return sorted.map((p, i) => Object.assign({}, p, {
+          rowDisplay: (statsOpen || i < 8) ? 'grid' : 'none',
+          rowOpacity: set.has(p.name) ? '0.45' : '1',
+          tagDisplay: set.has(p.name) ? 'inline-block' : 'none'
+        }));
+      })(),
+      statsOpen: statsOpen ? 'true' : 'false',
+      statsBtnDisplay: (s.playerStats || []).length > 8 ? 'flex' : 'none',
+      statsLabel: statsOpen ? '주요 선수만 보기 −' : '전체 선수 전적 보기 (' + (s.playerStats || []).length + '명) +',
+      toggleStats: () => this.setState({ statsOpen: !statsOpen }),
+      ...[0, 1, 2].reduce((o, i) => {
+        const c = (s.cards || {})[i] || { summary: '[전적 · 자동 표시]', games: [], more: '' };
+        o['card' + i + 'Summary'] = c.summary;
+        o['card' + i + 'Games'] = c.games;
+        o['card' + i + 'Divs'] = c.divs || [];
+        o['card' + i + 'DivDisplay'] = (c.divs && c.divs.length) ? 'flex' : 'none';
+        o['card' + i + 'MoreText'] = c.more;
+        o['card' + i + 'MoreDisplay'] = c.more ? 'block' : 'none';
+        return o;
+      }, {}),
+      goTop: () => {
+        try {
+          const el = document.getElementById('page-top');
+          let p = el;
+          while (p) { if (p.scrollTop) { try { p.scrollTo({ top: 0, behavior: 'smooth' }); } catch (e) { p.scrollTop = 0; } } p = p.parentElement; }
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          if (el && el.scrollIntoView) el.scrollIntoView({ block: 'start', behavior: 'smooth' });
+        } catch (e) {}
+      },
+      teamRecord: s.teamRecord || '-',
+      teamRate: s.teamRate || '-',
+      moreOpen: open ? 'true' : 'false',
+      moreDisplay: open ? 'table-row-group' : 'none',
+      moreLabel: open ? '최근 10경기만 보기 −' : '전체 기록 보기 +',
+      toggleMore: () => this.setState({ moreOpen: !open })
+    };
+  }
+}
+SSContent.load('records').then(function () { return SSContent.props('records', {"showAll": false, "transferred": "서지훈, 설주영, 김민재"}); }).then(function (p) { DCMount(Component, p); });
+</script>
+</body>
+</html>
