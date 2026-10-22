@@ -184,7 +184,7 @@ ${rows}
   copyDir(ROOT, OUT);
   const srv = await serve(OUT);
   const base = `http://127.0.0.1:${srv.address().port}/`;
-  const browser = await chromium.launch();
+  const browser = await chromium.launch(process.env.PW_CHANNEL ? { channel: process.env.PW_CHANNEL } : {});
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
   const errors = [];
   page.on('pageerror', (e) => errors.push(String(e)));
