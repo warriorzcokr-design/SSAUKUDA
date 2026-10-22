@@ -1,0 +1,50 @@
+# 싸우쿠다 홈페이지 - 저장(커밋)할 때마다 검색용 페이지를 만들어 자동으로 올립니다.
+name: 홈페이지 만들기
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # 주소를 teamssaukuda.com으로 옮기면 아래 줄을 https://teamssaukuda.com 으로 바꾸고,
+      # CUSTOM_DOMAIN 줄 맨 앞의 # 을 지우세요.
+      SITE_URL: https://warriorzcokr-design.github.io/SSAUKUDA
+      # CUSTOM_DOMAIN: teamssaukuda.com
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 브라우저 준비
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.56.0
+          npx playwright install --with-deps chromium
+      - name: 검색용 페이지 만들기
+        run: node build/prerender.cjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
