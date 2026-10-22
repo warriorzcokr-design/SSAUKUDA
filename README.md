@@ -38,3 +38,10 @@
 - 카카오톡 문의 버튼 → 카카오톡 채널 링크
 - 오시는 길 → 네이버/카카오 지도 퍼가기 코드
 - 선수 사진, 체급, 상해보험 안내, 코치 대회·시상 사진
+
+## 검색용 페이지 자동 만들기 (GitHub Actions)
+- 저장(커밋)할 때마다 .github/workflows/deploy.yml 이 실행되어, 글·숫자·시합 기록이 모두 채워진 페이지를 만들어 올립니다.
+- 선수마다 전적 페이지(fighters/이름.html)와 sitemap.xml 도 자동으로 만들어집니다.
+- Settings → Pages → Source 가 "GitHub Actions" 로 되어 있어야 합니다.
+- 진행 상황은 저장소 위쪽 Actions 메뉴에서 볼 수 있습니다. (초록 체크 = 성공)
+- 주소를 teamssaukuda.com 으로 옮길 때는 deploy.yml 의 SITE_URL 과 CUSTOM_DOMAIN 을 바꿉니다.
