@@ -18,7 +18,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     env:
+      # 깃허브 컴퓨터에 이미 설치된 크롬을 사용해서 빠르게 만듭니다.
+      PW_CHANNEL: chrome
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
       # 주소를 teamssaukuda.com으로 옮기면 아래 줄을 https://teamssaukuda.com 으로 바꾸고,
       # CUSTOM_DOMAIN 줄 맨 앞의 # 을 지우세요.
       SITE_URL: https://warriorzcokr-design.github.io/SSAUKUDA
@@ -29,9 +33,7 @@ jobs:
         with:
           node-version: 20
       - name: 브라우저 준비
-        run: |
-          npm install --no-save --no-audit --no-fund playwright@1.56.0
-          npx playwright install --with-deps chromium
+        run: npm install --no-save --no-audit --no-fund playwright@1.56.0
       - name: 검색용 페이지 만들기
         run: node build/prerender.cjs
       - uses: actions/configure-pages@v5
