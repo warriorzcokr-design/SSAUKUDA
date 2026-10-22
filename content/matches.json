@@ -755,6 +755,32 @@
       "weight": "67kg",
       "result": "2R, RNC",
       "opponent": "vs 정동민 · 로드짐 포레스트 "
+    },
+    {
+      "date": "2019.01.26.토",
+      "event": "로드FC 센트럴리그 45",
+      "division": "비기너",
+      "name": "강영범",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 박일리야 · MMA팜스"
+    },
+    {
+      "date": "2019.01.26.토",
+      "event": "로드FC 센트럴리그 45",
+      "division": "비기너",
+      "name": "황인용",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 이우민 · 바디태그 "
+    },
+    {
+      "date": "2019.01.26.토",
+      "event": "로드FC 센트럴리그 45",
+      "division": "비기너",
+      "name": "김민규",
+      "weight": "120.5kg",
+      "opponent": "vs 강호 · 본 주짓수, 병점"
     }
   ]
 }
