@@ -712,15 +712,6 @@
       "opponent": "vs 윤태영 · 제주 팀더킹"
     },
     {
-      "date": "2018.06.23.토",
-      "event": "로드FC 센트럴리그 42",
-      "division": "세미프로",
-      "name": "신지승",
-      "weight": "78.5kg",
-      "result": "1R, RNC승",
-      "opponent": "vs 알리 · 김대환MMA"
-    },
-    {
       "date": "2019.01.26.토",
       "event": "로드FC 센트럴리그 45",
       "division": "세미프로",
@@ -791,6 +782,600 @@
       "weight": "62.5kg",
       "result": "판정승",
       "opponent": "vs 김준성 · 본 주짓수, 병점"
+    },
+    {
+      "date": "2018.06.23.토",
+      "event": "로드FC 센트럴리그 42",
+      "division": "세미프로",
+      "name": "신지승",
+      "weight": "78.5kg",
+      "result": "1R, RNC승",
+      "opponent": "vs 알리 · 김대환MMA"
+    },
+    {
+      "date": "2018.06.23.토",
+      "event": "로드FC 센트럴리그 42",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "승",
+      "opponent": "vs 장재영 · 본주짓수 병점"
+    },
+    {
+      "date": "2018.05",
+      "event": "로드FC 센트럴리그 41",
+      "division": "비기너",
+      "name": "홍재환",
+      "weight": "67kg",
+      "result": "1R, 파운딩에 의한 KO승",
+      "opponent": "vs 김원규 · 광주 승리관"
+    },
+    {
+      "date": "2018.05",
+      "event": "로드FC 센트럴리그 41",
+      "division": "비기너",
+      "name": "최경은",
+      "weight": "85.5kg",
+      "result": "1R, 암바승",
+      "opponent": "vs 김호영 · 머드MMA"
+    },
+    {
+      "date": "2018.05",
+      "event": "로드FC 센트럴리그 41",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "판정패",
+      "opponent": "vs 이정중 · 조원종합격투기"
+    },
+    {
+      "date": "2018.03",
+      "event": "로드FC 센트럴리그 40",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "패",
+      "opponent": "vs 이태훈 · 몹짐"
+    },
+    {
+      "date": "2018.03",
+      "event": "로드FC 센트럴리그 40",
+      "division": "비기너",
+      "name": "홍재환",
+      "weight": "67kg",
+      "result": "승",
+      "opponent": "vs 박인환 · 레드훅 멀티짐"
+    },
+    {
+      "date": "2018.03",
+      "event": "로드FC 센트럴리그 40",
+      "division": "비기너",
+      "name": "박현일",
+      "weight": "94.5kg",
+      "result": "패",
+      "opponent": "vs 김지광 · 보령 탑태권도"
+    },
+    {
+      "date": "2018.03",
+      "event": "로드FC 센트럴리그 40",
+      "division": "비기너",
+      "name": "김현수",
+      "weight": "120.5kg",
+      "result": "승",
+      "opponent": "vs 박기욱 · 본주짓수 병점"
+    },
+    {
+      "date": "2018.01",
+      "event": "로드FC 센트럴리그 39",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "2R, 암바승",
+      "opponent": "vs 이정규 · 팀파시강남"
+    },
+    {
+      "date": "2018.01",
+      "event": "로드FC 센트럴리그 39",
+      "division": "비기너",
+      "name": "홍재환",
+      "weight": "67kg",
+      "result": "2R, 파운딩에 의한 TKO승",
+      "opponent": "vs 김상기 · 병점MMA"
+    },
+    {
+      "date": "2018.01",
+      "event": "로드FC 센트럴리그 39",
+      "division": "비기너",
+      "name": "김한서",
+      "weight": "71.5kg",
+      "result": "1R, 암 트라이앵글에 의한 패",
+      "opponent": "vs 김시원 · 군산울프짐"
+    },
+    {
+      "date": "2018.01",
+      "event": "로드FC 센트럴리그 39",
+      "division": "비기너",
+      "name": "박범동",
+      "weight": "78.5kg",
+      "result": "판정패",
+      "opponent": "vs 고영환 · 레드훅 멀티짐"
+    },
+    {
+      "date": "2018.01",
+      "event": "로드FC 센트럴리그 39",
+      "division": "비기너",
+      "name": "김근현",
+      "weight": "85.5kg",
+      "result": "판정패",
+      "opponent": "vs 장덕진 · MMA팜스"
+    },
+    {
+      "date": "2018.01",
+      "event": "로드FC 센트럴리그 39",
+      "division": "비기너",
+      "name": "김민규",
+      "weight": "120.5kg",
+      "result": "1R, RNC에 의한 패",
+      "opponent": "vs 염승훈 · 병점MMA"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "아마추어",
+      "name": "이진우",
+      "weight": "63kg",
+      "result": "2R, 암바에 의한 패",
+      "opponent": "vs 이석민 · 남양주 팀파이터"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "아마추어",
+      "name": "한동협",
+      "weight": "67kg",
+      "result": "판정패",
+      "opponent": "vs 이재원 · 타이거짐"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "아마추어",
+      "name": "우종언",
+      "weight": "120.5kg",
+      "result": "판정패",
+      "opponent": "vs 김재성 · 광무도 금천"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "비기너",
+      "name": "이재훈",
+      "weight": "63kg",
+      "result": "판정패",
+      "opponent": "vs 박찬영 · 본주짓수 서산"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "비기너",
+      "name": "송준협",
+      "weight": "63kg",
+      "result": "판정패",
+      "opponent": "vs 김승우 · MMA스토리"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "비기너",
+      "name": "원지웅",
+      "weight": "63kg",
+      "result": "판정승",
+      "opponent": "vs 이지환 · 레드훅 멀티짐"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "비기너",
+      "name": "최경은",
+      "weight": "78.5kg",
+      "result": "2R, RNC에 의한 패",
+      "opponent": "vs 허유강 · MMA스토리"
+    },
+    {
+      "date": "2017.11",
+      "event": "로드FC 센트럴리그 38",
+      "division": "세미프로",
+      "name": "안 룡",
+      "weight": "67kg",
+      "result": "1R, RNC에 의한 패",
+      "opponent": "vs 정성훈 · 팀포스"
+    },
+    {
+      "date": "2017.09",
+      "event": "로드FC 센트럴리그 37",
+      "division": "비기너",
+      "name": "원지웅",
+      "weight": "63kg",
+      "result": "판정승",
+      "opponent": "vs 한근호 · 도깨비MMA"
+    },
+    {
+      "date": "2017.09",
+      "event": "로드FC 센트럴리그 37",
+      "division": "비기너",
+      "name": "이재훈",
+      "weight": "67kg",
+      "result": "1R, RNC에 의한 패",
+      "opponent": "vs 장동권 · 팀 스트롱울프"
+    },
+    {
+      "date": "2017.09",
+      "event": "로드FC 센트럴리그 37",
+      "division": "비기너",
+      "name": "최경은",
+      "weight": "85.5kg",
+      "result": "판정패",
+      "opponent": "vs 조기웅 · 라이프MMA짐"
+    },
+    {
+      "date": "2017.09",
+      "event": "로드FC 센트럴리그 37",
+      "division": "비기너",
+      "name": "김근현",
+      "weight": "94.5kg",
+      "result": "판정패",
+      "opponent": "vs 서영석 · 병점MMA"
+    },
+    {
+      "date": "2017.09",
+      "event": "로드FC 센트럴리그 37",
+      "division": "비기너",
+      "name": "고덕훈",
+      "weight": "120.5kg",
+      "result": "1R, 상대 기권승",
+      "opponent": "vs 이성호 · 홍락짐"
+    },
+    {
+      "date": "2017.06",
+      "event": "로드FC 센트럴리그 36",
+      "division": "아마추어",
+      "name": "안 룡",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 최성민 · 팀파시 웨스트짐"
+    },
+    {
+      "date": "2017.04",
+      "event": "로드FC 센트럴리그 35",
+      "division": "아마추어",
+      "name": "안 룡",
+      "weight": "67kg",
+      "result": "판정패",
+      "opponent": "vs 이하준 · 남양주 팀파이터"
+    },
+    {
+      "date": "2017.04",
+      "event": "로드FC 센트럴리그 35",
+      "division": "아마추어",
+      "name": "한동협",
+      "weight": "67kg",
+      "result": "1R, 하이킥에 의한 KO패",
+      "opponent": "vs 지영민 · 병점MMA"
+    },
+    {
+      "date": "2017.04",
+      "event": "로드FC 센트럴리그 35",
+      "division": "비기너",
+      "name": "원지웅",
+      "weight": "58kg",
+      "result": "1R, 길로틴에 의한 패",
+      "opponent": "vs 막스 · 강한팀양스"
+    },
+    {
+      "date": "2017.04",
+      "event": "로드FC 센트럴리그 35",
+      "division": "비기너",
+      "name": "고기범",
+      "weight": "71.5kg",
+      "result": "판정패",
+      "opponent": "vs 양준석 · 디파이트짐"
+    },
+    {
+      "date": "2017.04",
+      "event": "로드FC 센트럴리그 35",
+      "division": "비기너",
+      "name": "송민건",
+      "weight": "78.5kg",
+      "result": "판정승",
+      "opponent": "vs 최현수 · 압구정짐"
+    },
+    {
+      "date": "2017.04",
+      "event": "로드FC 센트럴리그 35",
+      "division": "비기너",
+      "name": "송정우",
+      "weight": "78.5kg",
+      "result": "2R, 암바승",
+      "opponent": "vs 한주안 · MMA스토리"
+    },
+    {
+      "date": "2017.04",
+      "event": "로드FC 센트럴리그 35",
+      "division": "비기너",
+      "name": "소준영",
+      "weight": "85.5kg",
+      "result": "판정패",
+      "opponent": "vs 송재용 · 홍락멀티짐"
+    },
+    {
+      "date": "2017.02",
+      "event": "로드FC 센트럴리그 34",
+      "division": "아마추어",
+      "name": "안 룡",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 김상원 · 쎈짐 동구"
+    },
+    {
+      "date": "2017.02",
+      "event": "로드FC 센트럴리그 34",
+      "division": "비기너",
+      "name": "원지웅",
+      "weight": "63kg",
+      "result": "판정패",
+      "opponent": "vs 이관우 · 대전MMA"
+    },
+    {
+      "date": "2016.11",
+      "event": "로드FC 센트럴리그 33",
+      "division": "비기너",
+      "name": "강승민",
+      "weight": "78.5kg",
+      "result": "1R, 백스핀블로우에 의한 TKO패",
+      "opponent": "vs 이도훈 · 드림합기도"
+    },
+    {
+      "date": "2016.11",
+      "event": "로드FC 센트럴리그 33",
+      "division": "아마추어",
+      "name": "고윤정",
+      "weight": "53kg",
+      "result": "판정패",
+      "opponent": "vs 심유리 · 팀 지니어스"
+    },
+    {
+      "date": "2016.11",
+      "event": "로드FC 센트럴리그 33",
+      "division": "아마추어",
+      "name": "한동협",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 유재혁 · 김대환MMA"
+    },
+    {
+      "date": "2016.11",
+      "event": "로드FC 센트럴리그 33",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 윤다원 · MMA스토리"
+    },
+    {
+      "date": "2016.11",
+      "event": "로드FC 센트럴리그 33",
+      "division": "아마추어",
+      "name": "윤수영",
+      "weight": "71.5kg",
+      "result": "2R, 프론트 RNC에 의한 패",
+      "opponent": "vs 김명현 · 보령 탑태권도"
+    },
+    {
+      "date": "2016.10",
+      "event": "로드FC 센트럴리그 32",
+      "division": "아마추어",
+      "name": "한동협",
+      "weight": "67kg",
+      "result": "1R, 길로틴에 의한 패",
+      "opponent": "vs 서동영 · 팀포마"
+    },
+    {
+      "date": "2016.10",
+      "event": "로드FC 센트럴리그 32",
+      "division": "아마추어",
+      "name": "고기석",
+      "weight": "120.5kg",
+      "result": "판정승",
+      "opponent": "vs 김우진 · 옥타곤 멀티짐"
+    },
+    {
+      "date": "2016.08",
+      "event": "로드FC 센트럴리그 31",
+      "division": "비기너",
+      "name": "송정우",
+      "weight": "78.5kg",
+      "result": "판정승",
+      "opponent": "vs 조종덕 · 병점MMA"
+    },
+    {
+      "date": "2016.08",
+      "event": "로드FC 센트럴리그 31",
+      "division": "비기너",
+      "name": "박대현",
+      "weight": "78.5kg",
+      "result": "1R, RNC승",
+      "opponent": "vs 김용현 · 아레스짐"
+    },
+    {
+      "date": "2016.08",
+      "event": "로드FC 센트럴리그 31",
+      "division": "비기너",
+      "name": "고덕훈",
+      "weight": "120.5kg",
+      "result": "2R, 파운딩에 의한 TKO승",
+      "opponent": "vs 이성민 · 팀파이터"
+    },
+    {
+      "date": "2016.08",
+      "event": "로드FC 센트럴리그 31",
+      "division": "아마추어",
+      "name": "고기석",
+      "weight": "120.5kg",
+      "result": "판정패",
+      "opponent": "vs 진익태 · 구미 팀헌터"
+    },
+    {
+      "date": "2016.06",
+      "event": "로드FC 센트럴리그 30",
+      "division": "아마추어",
+      "name": "한동협",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 김정우 · 팀맥스 멀티짐"
+    },
+    {
+      "date": "2016.06",
+      "event": "로드FC 센트럴리그 30",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "2R, TKO승",
+      "opponent": "vs 박민재 · 팀파이터"
+    },
+    {
+      "date": "2016.02",
+      "event": "로드FC 센트럴리그 28",
+      "division": "아마추어",
+      "name": "강남경",
+      "weight": "58kg",
+      "result": "판정패",
+      "opponent": "vs 조민수 · 본주짓수 병점MMA"
+    },
+    {
+      "date": "2016.02",
+      "event": "로드FC 센트럴리그 28",
+      "division": "아마추어",
+      "name": "양진택",
+      "weight": "63kg",
+      "result": "1R, RNC에 의한 패",
+      "opponent": "vs 이상진 · 팀파이터"
+    },
+    {
+      "date": "2015.11",
+      "event": "로드FC 센트럴리그 27",
+      "division": "아마추어",
+      "name": "안 룡",
+      "weight": "63kg",
+      "result": "2R, RNC에 의한 패",
+      "opponent": "vs 정호연 · 본주짓수 송탄MMA"
+    },
+    {
+      "date": "2015.11",
+      "event": "로드FC 센트럴리그 27",
+      "division": "아마추어",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "2R, 닥터스톱에 의한 TKO승",
+      "opponent": "vs 손환욱 · 코리안좀비MMA"
+    },
+    {
+      "date": "2015.09",
+      "event": "로드FC 센트럴리그 26",
+      "division": "아마추어",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "판정승",
+      "opponent": "vs 윤다원 · MMA스토리"
+    },
+    {
+      "date": "2015.09",
+      "event": "로드FC 센트럴리그 26",
+      "division": "아마추어",
+      "name": "오현수",
+      "weight": "78.5kg",
+      "result": "판정패",
+      "opponent": "vs 이지웅 · 코리안좀비MMA"
+    },
+    {
+      "date": "2015.07",
+      "event": "로드FC 센트럴리그 25",
+      "division": "아마추어",
+      "name": "박석한",
+      "weight": "63kg",
+      "result": "1R, 트라이앵글초크에 의한 패",
+      "opponent": "vs 안태영 · 싸비MMA"
+    },
+    {
+      "date": "2015.07",
+      "event": "로드FC 센트럴리그 25",
+      "division": "아마추어",
+      "name": "오현수",
+      "weight": "78.5kg",
+      "result": "판정패",
+      "opponent": "vs 유용국 · 코리안좀비MMA"
+    },
+    {
+      "date": "2015.07",
+      "event": "로드FC 센트럴리그 25",
+      "division": "세미프로",
+      "name": "신지승",
+      "weight": "71.5kg",
+      "result": "1R, 기무라승",
+      "opponent": "vs 정홍주 · 타이혼짐"
+    },
+    {
+      "date": "2015.04",
+      "event": "로드FC 센트럴리그 24",
+      "division": "아마추어",
+      "name": "박석한",
+      "weight": "63kg",
+      "result": "1R, 암바에 의한 패",
+      "opponent": "vs 김이삭 · 팀 스트롱울프"
+    },
+    {
+      "date": "2015.04",
+      "event": "로드FC 센트럴리그 24",
+      "division": "아마추어",
+      "name": "오현수",
+      "weight": "78.5kg",
+      "result": "2R, RNC승",
+      "opponent": "vs 김종범 · 코리안좀비MMA"
+    },
+    {
+      "date": "2015.04",
+      "event": "로드FC 센트럴리그 24",
+      "division": "아마추어",
+      "name": "신지승",
+      "weight": "78.5kg",
+      "result": "2R, 암바승",
+      "opponent": "vs 홍선 · 본주짓수 송탄"
+    },
+    {
+      "date": "2015.01",
+      "event": "로드FC 센트럴리그 22",
+      "division": "아마추어",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "1R, 로우킥에 의한 KO승",
+      "opponent": "vs 이재욱 · 크러쉬MMA"
+    },
+    {
+      "date": "2015.01",
+      "event": "로드FC 센트럴리그 22",
+      "division": "아마추어",
+      "name": "신지승",
+      "weight": "71.5kg",
+      "result": "1R, 암바승",
+      "opponent": "vs 정성훈 · 팀포스"
+    },
+    {
+      "date": "2014.03",
+      "event": "로드FC 센트럴리그 17",
+      "division": "아마추어",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "판정패",
+      "opponent": "vs 박형수 · 서두원짐"
     }
   ]
 }
