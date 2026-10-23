@@ -34,6 +34,23 @@
         el.hidden = true; var e = slot.querySelector('[data-photo-empty]'); if (e) e.hidden = false;
       }
     });
+    document.querySelectorAll('[data-cv]').forEach(function (el) {
+      var v = get(data, el.getAttribute('data-cv'));
+      if (typeof v !== 'string') return;
+      var m = v.trim().match(/(?:youtu\.be\/|[?&]v=|\/(?:embed|shorts|live)\/)([A-Za-z0-9_-]{11})/) || v.trim().match(/^([A-Za-z0-9_-]{11})$/);
+      var slot = el.closest('[data-video-slot]');
+      if (m) {
+        var src = 'https://www.youtube-nocookie.com/embed/' + m[1];
+        if (el.getAttribute('src') !== src) el.setAttribute('src', src);
+        if (slot) slot.hidden = false;
+      } else {
+        el.removeAttribute('src');
+        if (slot) slot.hidden = true;
+      }
+    });
+    document.querySelectorAll('[data-video-grid]').forEach(function (g) {
+      g.hidden = !g.querySelector('[data-video-slot]:not([hidden])');
+    });
     document.querySelectorAll('[data-ch]').forEach(function (el) {
       var v = get(data, el.getAttribute('data-ch'));
       if (typeof v === 'string' && v) el.setAttribute('href', v);
