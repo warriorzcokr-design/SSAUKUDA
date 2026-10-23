@@ -1027,6 +1027,15 @@
       "opponent": "vs 서영석 · 병점MMA"
     },
     {
+      "date": "2017.07",
+      "event": "KFSO 유소년 리그",
+      "division": "비기너",
+      "name": "원지웅",
+      "weight": "61kg",
+      "result": "판정패",
+      "opponent": "vs 아지즈 · 엘리트 팩토리"
+    },
+    {
       "date": "2017.09",
       "event": "로드FC 센트럴리그 37",
       "division": "비기너",
@@ -1034,6 +1043,15 @@
       "weight": "120.5kg",
       "result": "판정승",
       "opponent": "vs 이성호 · 홍락짐"
+    },
+    {
+      "date": "2017.07",
+      "event": "KFSO 유소년 리그",
+      "division": "비기너",
+      "name": "최경은",
+      "weight": "+75kg",
+      "result": "1R, 헤드락에 의한 패",
+      "opponent": "vs 김승재 · 천안 팀 제이 "
     },
     {
       "date": "2017.06",
@@ -1394,24 +1412,6 @@
       "weight": "67kg",
       "result": "판정패",
       "opponent": "vs 박형수 · 서두원짐"
-    },
-    {
-      "date": "2017.07",
-      "event": "KFSO 유소년 리그",
-      "division": "비기너",
-      "name": "최경은",
-      "weight": "+75kg",
-      "result": "1R, 헤드락에 의한 패",
-      "opponent": "vs 김승재 · 천안 팀 제이 "
-    },
-    {
-      "date": "2017.07",
-      "event": "KFSO 유소년 리그",
-      "division": "비기너",
-      "name": "원지웅",
-      "weight": "61kg",
-      "result": "판정패",
-      "opponent": "vs 아지즈 · 엘리트 팩토리"
     }
   ]
 }
