@@ -1279,6 +1279,33 @@
       "opponent": "vs 이상진 · 팀파이터"
     },
     {
+      "date": "2015.12.13.일",
+      "event": "로드FC 인투리그",
+      "division": "아마추어",
+      "name": "오현수",
+      "weight": "85.5kg",
+      "result": "판정승",
+      "opponent": "vs 유제권 · 청주 팀 제이"
+    },
+    {
+      "date": "2015.12.13.일",
+      "event": "로드FC 인투리그",
+      "division": "아마추어",
+      "name": "윤수영",
+      "weight": "67kg",
+      "result": "판정패",
+      "opponent": "전석규 · 팀매드"
+    },
+    {
+      "date": "2015.12.13.일",
+      "event": "로드FC 인투리그",
+      "division": "세미프로",
+      "name": "박석한",
+      "weight": "67kg",
+      "result": "2R, 펀치에 의한 TKO패",
+      "opponent": "vs 조힘찬 · 팀매드"
+    },
+    {
       "date": "2015.11",
       "event": "로드FC 센트럴리그 27",
       "division": "아마추어",
@@ -1412,33 +1439,6 @@
       "weight": "67kg",
       "result": "판정패",
       "opponent": "vs 박형수 · 서두원짐"
-    },
-    {
-      "date": "2015.12.13.일",
-      "event": "로드FC 인투리그",
-      "division": "아마추어",
-      "name": "오현수",
-      "weight": "85.5kg",
-      "result": "판정승",
-      "opponent": "vs 유제권 · 청주 팀 제이"
-    },
-    {
-      "date": "2015.12.13.일",
-      "event": "로드FC 인투리그",
-      "division": "아마추어",
-      "name": "윤수영",
-      "weight": "67kg",
-      "result": "판정패",
-      "opponent": "전석규 · 팀매드"
-    },
-    {
-      "date": "2015.12.13.일",
-      "event": "로드FC 인투리그",
-      "division": "세미프로",
-      "name": "박석한",
-      "weight": "67kg",
-      "result": "2R, 펀치에 의한 TKO패",
-      "opponent": "vs 조힘찬 · 팀매드"
     }
   ]
 }
