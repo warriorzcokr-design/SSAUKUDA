@@ -2,6 +2,9 @@
   "settings": {
     "transferred": "서지훈, 설주영, 김민재, 고유나"
   },
+  "photos": {
+    "slot2": "images/신지승.jpg"
+  },
   "links": {
     "link1": "#contact",
     "link2": "tel:01093394183"
