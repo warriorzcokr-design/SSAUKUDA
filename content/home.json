@@ -4,7 +4,7 @@
     "coach": "images/coach.jpg"
   },
   "links": {
-    "link1": "#contact",
+    "link1": "https://open.kakao.com/o/s4NlQZTi",
     "link2": "tel:01093394183",
     "link7": "#contact",
     "link8": "tel:01093394183",
@@ -219,15 +219,9 @@
   "videos": {
     "label": "싸우쿠다 영상",
     "title": "매트 위의 시간",
+    "desc": "수업 분위기와 선수들의 시합 영상을 유튜브에서 볼 수 있어요.",
     "channel_btn": "유튜브 채널 보기 →",
     "channel_url": "https://www.youtube.com/@ssaukudatrainingcenter2466",
-    "desc": "수업 분위기와 선수들의 시합 영상을 유튜브에서 볼 수 있어요.",
-    "video1": "",
-    "video1_title": "",
-    "video2": "",
-    "video2_title": "",
-    "video3": "",
-    "video3_title": "",
     "member_label": "회원 전용",
     "member_title": "기술 영상 · 시합 분석은 회원 전용 카페에서",
     "member_desc": "네이버 카페에 가입하고 회원 확인을 받으면, 수업에서 배운 기술과 시합 분석 영상을 언제든 다시 볼 수 있어요.",
