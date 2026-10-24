@@ -54,12 +54,21 @@ function serve(dir) {
   });
 }
 
+// 사이트 아이콘(파비콘) - 모든 페이지 공통
+const ICONS = `<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#000000">
+`;
+
 function headExtras(file, canonicalPath, extra) {
   const meta = PAGES[file];
   let h = `<link rel="canonical" href="${SITE_URL}/${canonicalPath}">\n`;
   h += `<meta property="og:url" content="${SITE_URL}/${canonicalPath}">\n`;
   h += `<meta property="og:site_name" content="싸우쿠다 트레이닝 센터">\n`;
   h += `<meta property="og:locale" content="ko_KR">\n`;
+  h += ICONS;
   if (extra) h += extra;
   return h;
 }
@@ -149,7 +158,7 @@ function fighterPage(f, transferred) {
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:image" content="${SITE_URL}/images/hero.jpg">
 <meta property="og:locale" content="ko_KR">
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&amp;family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+${ICONS}<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&amp;family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <style>body{margin:0;background:#111110;color:#F2EEE6;font-family:'Noto Sans KR',system-ui,sans-serif;line-height:1.7;word-break:keep-all}a{color:#F2EEE6}</style>
 </head>
