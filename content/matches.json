@@ -505,6 +505,15 @@
       "opponent": "vs 김형민 · 팀스턴건"
     },
     {
+      "date": "2019.11.09.토",
+      "event": "Road FC Young Guns 45",
+      "division": "프로",
+      "name": "박석한",
+      "weight": "-61.3kg",
+      "result": "1R, 펀치에 의한 TKO패",
+      "opponent": "야마모토 세이고 · 부산 팀 모이라"
+    },
+    {
       "date": "2019.10.26.토",
       "event": "로드FC 센트럴리그 50",
       "division": "아마추어",
@@ -1448,15 +1457,6 @@
       "weight": "67kg",
       "result": "판정패",
       "opponent": "vs 박형수 · 서두원짐"
-    },
-    {
-      "date": "2019.11.09.토",
-      "event": "Road FC Young Guns 45",
-      "division": "프로",
-      "name": "박석한",
-      "weight": "-61.3kg",
-      "result": "1R, 펀치에 의한 TKO패",
-      "opponent": "야마모토 세이고 · 부산 팀 모이라"
     }
   ]
 }
