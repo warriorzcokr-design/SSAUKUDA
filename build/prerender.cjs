@@ -14,16 +14,16 @@ const SKIP = new Set(['.git', '.github', 'build', 'node_modules', '_site', 'pack
 
 const PAGES = {
   'index.html': {
-    title: '제주 MMA 체육관 싸우쿠다 | 제주시 MMA · 주짓수 · 킥복싱 · 레슬링',
-    desc: '제주시 중앙로 싸우쿠다 트레이닝 센터. 초보자부터 프로 선수까지 MMA, 주짓수, 킥복싱, 레슬링 그룹 수업과 1:1 P.T. 평일 저녁 시간표, 수강료, 코치 소개, 선수 시합 기록.',
+    title: '제주 MMA 체육관 싸우쿠다 | MMA·주짓수·킥복싱·레슬링',
+    desc: '제주시 중앙로 MMA 체육관 싸우쿠다. 초보부터 프로까지 MMA, 주짓수, 킥복싱, 레슬링 그룹 수업과 1:1 P.T.',
   },
   'coach.html': {
     title: '관장 박석한 코치 소개 | 제주 MMA 싸우쿠다',
-    desc: '제주 MMA 체육관 싸우쿠다 관장 박석한. 태권도, 극진 공수도, 로드FC 프로 MMA까지 걸어온 길과 전적, 수상 기록, 코치 이야기.',
+    desc: '제주 MMA 체육관 싸우쿠다 관장 박석한. 태권도, 극진 공수도를 거쳐 로드FC 프로 MMA까지 걸어온 길과 전적.',
   },
   'records.html': {
     title: '선수 · 시합 기록 | 제주 MMA 싸우쿠다',
-    desc: '제주 MMA 체육관 싸우쿠다 선수들의 시합 출전 기록과 선수별 전적, 승률. 로드FC, WARRIORZ, BLACK COMBAT, ZEUS FC, BEAST CF 출전 기록.',
+    desc: '제주 MMA 체육관 싸우쿠다 선수들의 시합 기록과 선수별 전적·승률. 로드FC, WARRIORZ, BLACK COMBAT 등.',
   },
 };
 
@@ -118,11 +118,14 @@ function fighterStats(matches) {
   return out;
 }
 
+// 네이버 권장: 제목 40자, 설명 80자 이내
+function clip(s, n) { s = String(s); return s.length <= n ? s : s.slice(0, n - 1).replace(/[\s,.·]+$/, '') + '…'; }
+
 function fighterPage(f, transferred) {
   const rec = `${f.games.length}전 ${f.w}승 ${f.l}패${f.d ? ' ' + f.d + '무' : ''}`;
   const events = [...new Set(f.games.map((g) => String(g.event || '').trim()).filter(Boolean))];
-  const title = `${f.name} 선수 전적 ${rec} | 제주 MMA 싸우쿠다`;
-  const desc = `${transferred ? '전 싸우쿠다 소속' : '제주 MMA 체육관 싸우쿠다 소속'} ${f.name} 선수의 시합 기록. 통산 ${rec}${f.fin ? ', 피니시 승 ' + f.fin + '회' : ''}. ${events.slice(0, 4).join(', ')} 출전.`;
+  const title = clip(`${f.name} 선수 전적 ${rec} | 제주 MMA 싸우쿠다`, 40);
+  const desc = clip(`${transferred ? '전 싸우쿠다 소속' : '제주 MMA 싸우쿠다 소속'} ${f.name} 선수 시합 기록. 통산 ${rec}${f.fin ? ', 피니시 승 ' + f.fin + '회' : ''}. ${events.slice(0, 2).join(', ')} 출전.`, 80);
   const order = ['프로', '세미프로', '아마추어', '비기너', '기타'];
   const divs = [...f.divs.entries()].sort((a, b) => (order.indexOf(a[0]) < 0 ? 99 : order.indexOf(a[0])) - (order.indexOf(b[0]) < 0 ? 99 : order.indexOf(b[0])))
     .map(([k, v]) => `<li style="padding: 6px 12px; border: 1px solid #2A2926; border-radius: 4px; background: #1B1A18"><strong style="color: #2EC45A">${esc(k)}</strong> ${v.w}승 ${v.l}패${v.d ? ' ' + v.d + '무' : ''}</li>`).join('');
