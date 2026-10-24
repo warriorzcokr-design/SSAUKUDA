@@ -676,6 +676,15 @@
       "opponent": "vs 지영민 · 본주짓수, 병점"
     },
     {
+      "date": "2019.05.18.토",
+      "event": "ROAD FC 영건스 42",
+      "division": "프로",
+      "name": "박석한",
+      "weight": "-61.3kg",
+      "result": "2R, RNC승",
+      "opponent": "vs 쿠보 켄타 · Grappling Shoot Boxers Tajimi"
+    },
+    {
       "date": "2019.03.16.토",
       "event": "로드FC 센트럴리그 46",
       "division": "세미프로",
@@ -1439,15 +1448,6 @@
       "weight": "67kg",
       "result": "판정패",
       "opponent": "vs 박형수 · 서두원짐"
-    },
-    {
-      "date": "2019.05.18.토",
-      "event": "ROAD FC 영건스 42",
-      "division": "프로",
-      "name": "박석한",
-      "weight": "-61.3kg",
-      "result": "2R, RNC승",
-      "opponent": "vs 쿠보 켄타 · Grappling Shoot Boxers Tajimi"
     }
   ]
 }
