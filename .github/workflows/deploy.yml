@@ -23,10 +23,8 @@ jobs:
       # 깃허브 컴퓨터에 이미 설치된 크롬을 사용해서 빠르게 만듭니다.
       PW_CHANNEL: chrome
       PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
-      # 주소를 teamssaukuda.com으로 옮기면 아래 줄을 https://teamssaukuda.com 으로 바꾸고,
-      # CUSTOM_DOMAIN 줄 맨 앞의 # 을 지우세요.
-      SITE_URL: https://warriorzcokr-design.github.io/SSAUKUDA
-      # CUSTOM_DOMAIN: teamssaukuda.com
+      # 홈페이지 대표 주소 (검색엔진에 알려 주는 주소)
+      SITE_URL: https://ssaukuda.com
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
