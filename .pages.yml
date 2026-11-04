@@ -921,6 +921,9 @@ content:
         label: "사진"
         type: "object"
         fields:
+          - name: "accident"
+            label: "사진 · 코치 이야기 교통사고"
+            type: "image"
           - name: "coach"
             label: "사진 · coach.jpg"
             type: "image"
