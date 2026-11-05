@@ -87,6 +87,28 @@
 
   window.SSContent = {
     load: function (page) {
+      /* 화면 구조가 바뀐 뒤 브라우저(예: 삼성 인터넷)가 예전 페이지를 저장해 두고 보여주면
+         새 글이 엉뚱한 칸에 들어간다. content/version.json의 버전과 페이지의 data-cver가 다르면
+         글을 넣지 않고 한 번 새로 불러온다. 화면 구조를 바꿀 때마다 두 곳의 버전을 함께 올린다. */
+      var self = this;
+      return getJSON('content/version.json').catch(function () { return null; }).then(function (ver) {
+        var want = ver && ver[page], have = document.documentElement.getAttribute('data-cver');
+        if (want && have !== want) {
+          try {
+            var key = 'ss-reload-' + page + '-' + want;
+            if (sessionStorage.getItem(key) !== '1') {
+              sessionStorage.setItem(key, '1');
+              var u = new URL(location.href); u.searchParams.set('v', want);
+              location.replace(u.toString());
+              return new Promise(function () {});
+            }
+          } catch (e) {}
+          return window.SSContentData;
+        }
+        return self._load(page);
+      });
+    },
+    _load: function (page) {
       var jobs = [getJSON('content/' + page + '.json').then(apply).catch(function () {})];
       if (page === 'records') {
         jobs.push(getJSON('content/matches.json').then(function (d) { fillMatches(d && d.matches); }).catch(function () {}));
